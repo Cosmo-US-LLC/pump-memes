@@ -8,6 +8,10 @@ import ButNowSection from "./ButNowSection";
 import BecauseSec from "./BecauseSec";
 import WelcomeSe from "./WelcomeSe";
 import RewardsSection from "./RewardsSection";
+import CopyBestTradersBanner from "./CopyBestTradersBanner";
+import ComparisonTable from "./ComparisonTable";
+import HowToBuy from "./HowToBuy";
+import LiveStreamsSection from "./LiveStreamsSection";
 
 function Home() {
   return (
@@ -19,8 +23,12 @@ function Home() {
           <BigPotentialSec />
           <ButNowSection/>
           <BecauseSec/>
-          <WelcomeSe/>
+          <WelcomeSe/>    
           <RewardsSection />
+          <HowToBuy/>
+          <LiveStreamsSection/>
+          <CopyBestTradersBanner/>
+          <ComparisonTable/>
     </div>
   );
 }
