@@ -1,7 +1,6 @@
-import react from "react"
-import Logo from "../assets/Svgs/Logo.svg" 
-import flag from "../assets/Svgs/eng.svg" 
-import arwdwn from "../assets/Svgs/arrwdwn.svg" 
+import Logo from "../assets/Svgs/Logo.svg";
+import arwdwn from "../assets/Svgs/arrwdwn.svg";
+import flag from "../assets/Svgs/eng.svg";
 
 function Navbar() {
   return (
