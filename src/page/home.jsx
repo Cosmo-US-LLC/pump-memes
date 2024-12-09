@@ -12,6 +12,10 @@ import FutureSection from "./FutureSection";
 import StandForFun from "./StandForFunSection";
 import LaunchPadSection from "./LaunchPadSection";
 import FooterSection from "./FooterSection";
+import CopyBestTradersBanner from "./CopyBestTradersBanner";
+import ComparisonTable from "./ComparisonTable";
+import HowToBuy from "./HowToBuy";
+import LiveStreamsSection from "./LiveStreamsSection";
 
 function Home() {
   return (
@@ -25,6 +29,10 @@ function Home() {
       <BecauseSec />
       <WelcomeSe />
       <RewardsSection />
+      <HowToBuy />
+      <LiveStreamsSection />
+      <CopyBestTradersBanner />
+      <ComparisonTable />
       <FutureSection />
       <StandForFun />
       <LaunchPadSection />
