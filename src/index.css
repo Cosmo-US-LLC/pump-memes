@@ -106,12 +106,34 @@ code {
   background-repeat: no-repeat;
   margin-top: -14rem;
 }
+.bggiveback{
+  background-image: url(./assets/images/givebackbg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bgFromdeg{
+  background-image: url(./assets/images/frombg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bgTopMeme{
+  background-image: url(./assets/images/topmemebg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .textStrock{
   -webkit-text-stroke-width: 3.2px; 
   -webkit-text-stroke-color: #000;
 }
 .bessttrok{
   -webkit-text-stroke-width: 3px; 
+  -webkit-text-stroke-color: #000;
+}
+.bessttroksmp{
+  -webkit-text-stroke-width: 2px; 
   -webkit-text-stroke-color: #000;
 }
 .inputwellat[type="checkbox"] {

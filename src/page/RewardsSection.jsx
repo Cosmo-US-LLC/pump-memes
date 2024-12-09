@@ -19,7 +19,7 @@ function RewardsSection() {
                 <p className="text-[28px] text-center text-[#000] leading-[120.102%]">A platform designed to earn, win and have fun.</p>
             </div>
         </div>
-        <div className="max-w-[947px] min-h-[100vh] flex justify-between  pt-[100px] pb-[200px] w-[100%] m-atuo ">
+        <div className="max-w-[947px] min-h-[100vh] flex justify-between  pt-[100px] pb-[200px] w-[100%] m-auto ">
            <div className="space-y-[6rem] max-w-[400px] w-[100%] ">
            <div className="max-w-[346px] w-[100%] relative">
                 <div className="max-w-[257px]">

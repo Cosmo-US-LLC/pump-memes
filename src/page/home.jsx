@@ -16,6 +16,13 @@ import CopyBestTradersBanner from "./CopyBestTradersBanner";
 import ComparisonTable from "./ComparisonTable";
 import HowToBuy from "./HowToBuy";
 import LiveStreamsSection from "./LiveStreamsSection";
+import WhilePumpSec from "./WhilePumpSec";
+import GivingBackSec from "./GivingBackSec";
+import FromDegensSec from "./FromDegensSec";
+import TopMemeSec from "./TopMemeSec";
+import PumpnomicsSec from "./PumpnomicsSec";
+import FaqSec from "./FaqsSec";
+
 
 function Home() {
   return (
@@ -29,6 +36,11 @@ function Home() {
       <BecauseSec />
       <WelcomeSe />
       <RewardsSection />
+      <WhilePumpSec />
+      <GivingBackSec />
+      <FromDegensSec />
+      <TopMemeSec />
+      <PumpnomicsSec />
       <HowToBuy />
       <LiveStreamsSection />
       <CopyBestTradersBanner />
@@ -36,6 +48,7 @@ function Home() {
       <FutureSection />
       <StandForFun />
       <LaunchPadSection />
+      <FaqSec />
       <FooterSection />
     </div>
   );
