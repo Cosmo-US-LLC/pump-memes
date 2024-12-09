@@ -1,12 +1,11 @@
-import react from "react";
-import bigvector1 from "../assets/images/rdcardicn (8).png";
-import bigvector2 from "../assets/images/rdcardicn (7).png";
-import bigvector3 from "../assets/images/rdcardicn (6).png";
-import bigvector4 from "../assets/images/rdcardicn (5).png";
-import bigvector5 from "../assets/images/rdcardicn (4).png";
-import bigvector6 from "../assets/images/rdcardicn (3).png";
-import bigvector7 from "../assets/images/rdcardicn (2).png";
 import bigvector8 from "../assets/images/rdcardicn (1).png";
+import bigvector7 from "../assets/images/rdcardicn (2).png";
+import bigvector6 from "../assets/images/rdcardicn (3).png";
+import bigvector5 from "../assets/images/rdcardicn (4).png";
+import bigvector4 from "../assets/images/rdcardicn (5).png";
+import bigvector3 from "../assets/images/rdcardicn (6).png";
+import bigvector2 from "../assets/images/rdcardicn (7).png";
+import bigvector1 from "../assets/images/rdcardicn (8).png";
 
 function RewardsSection() {
   return (

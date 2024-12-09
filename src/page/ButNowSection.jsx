@@ -1,10 +1,10 @@
 import React from "react";
+import butvector6 from "../assets/Svgs/buticons (1).svg";
 import butvector1 from "../assets/Svgs/buticons (2).svg";
 import butvector2 from "../assets/Svgs/buticons (3).svg";
 import butvector3 from "../assets/Svgs/buticons (4).svg";
 import butvector4 from "../assets/Svgs/buticons (5).svg";
 import butvector5 from "../assets/Svgs/buticons (6).svg";
-import butvector6 from "../assets/Svgs/buticons (1).svg";
 
 const cardData = [
     {

@@ -1,8 +1,7 @@
-import react from "react";
-import whaticn1 from "../assets/Svgs/whaticn (2).svg";
 import whaticn2 from "../assets/Svgs/whaticn (1).svg";
-import whatvectors1 from "../assets/images/whatvectors (2).png";
+import whaticn1 from "../assets/Svgs/whaticn (2).svg";
 import whatvectors2 from "../assets/images/whatvectors (1).png";
+import whatvectors1 from "../assets/images/whatvectors (2).png";
 function WhatIfPumpSec() {
   return (
     <div className="w-[100%] py-[87px]  max-w-[1241px] w-[100%] mx-auto ">

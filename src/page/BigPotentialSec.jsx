@@ -1,8 +1,6 @@
-import react from "react";
+import bigvector3 from "../assets/Svgs/bigvectors (1).svg";
 import bigvector1 from "../assets/Svgs/bigvectors (2).svg";
 import bigvector2 from "../assets/Svgs/bigvectors (3).svg";
-import bigvector3 from "../assets/Svgs/bigvectors (1).svg";
-import Userimg from "../assets/images/userimg.png";
 
 function BigPotentialSec() {
   return (

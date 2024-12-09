@@ -1,4 +1,3 @@
-import react from "react";
 import beacuesimg1 from "../assets/images/besauseimg (1).png";
 import beacuesimg2 from "../assets/images/besauseimg (2).png";
 import beacuesimg3 from "../assets/images/besauseimg (3).png";

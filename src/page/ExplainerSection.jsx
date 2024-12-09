@@ -1,5 +1,3 @@
-import react from "react"
-import fram from "../assets/images/fram.png"
 
 function ExplainerSection() {
   return (

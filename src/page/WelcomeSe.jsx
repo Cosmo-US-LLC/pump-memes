@@ -1,16 +1,15 @@
-import react from "react";
+import welvector6 from "../assets/images/welbotmvec.png";
+import welvector5 from "../assets/images/welvector (1).png";
+import welvector4 from "../assets/images/welvector (2).png";
+import welvector3 from "../assets/images/welvector (3).png";
+import welvector2 from "../assets/images/welvector (4).png";
+import welvector1 from "../assets/images/welvector (5).png";
+import welvector7 from "../assets/images/welvector (6).png";
 import welpara1 from "../assets/images/wlpara (1).png";
 import welpara2 from "../assets/images/wlpara (2).png";
-import welcardicn1 from "../assets/Svgs/welcardicn (3).svg";
-import welcardicn2 from "../assets/Svgs/welcardicn (2).svg";
 import welcardicn3 from "../assets/Svgs/welcardicn (1).svg";
-import welvector1 from "../assets/images/welvector (5).png";
-import welvector2 from "../assets/images/welvector (4).png";
-import welvector3 from "../assets/images/welvector (3).png";
-import welvector4 from "../assets/images/welvector (2).png";
-import welvector5 from "../assets/images/welvector (1).png";
-import welvector6 from "../assets/images/welbotmvec.png";
-import welvector7 from "../assets/images/welvector (6).png";
+import welcardicn2 from "../assets/Svgs/welcardicn (2).svg";
+import welcardicn1 from "../assets/Svgs/welcardicn (3).svg";
 
 function WelcomeSe() {
   return (

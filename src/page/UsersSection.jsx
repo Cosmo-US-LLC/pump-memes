@@ -1,8 +1,7 @@
-import react from "react";
-import Usericons1 from "../assets/Svgs/usericons (4).svg";
-import Usericons2 from "../assets/Svgs/usericons (3).svg";
-import Usericons3 from "../assets/Svgs/usericons (2).svg";
 import Usericons4 from "../assets/Svgs/usericons (1).svg";
+import Usericons3 from "../assets/Svgs/usericons (2).svg";
+import Usericons2 from "../assets/Svgs/usericons (3).svg";
+import Usericons1 from "../assets/Svgs/usericons (4).svg";
 import Userimg from "../assets/images/userimg.png";
 
 function UsersSection() {
