@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Lato", serif;
+  scroll-behavior: smooth;
+}
+
+code {
+    font-family: "Lato", serif;
+  scroll-behavior: smooth;
+}
+
+.herobg{
+  background-image: url(./assets/images/hero-bg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.herowalletbg{
+  background-image: url(./assets/images/walletbg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.explbgimg{
+  background-image: url(./assets/images/explorbg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.explframbgimg{
+  background-image: url(./assets/images/fram.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 980px;
+}
+.bguserSec{
+  background-image: url(./assets/images/userbg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Butcardbg1{
+  background-image: url(./assets/images/butbgimg\ \(6\).png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Butcardbg2{
+  background-image: url(./assets/images/butbgimg\ \(5\).png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Butcardbg3{
+  background-image: url(./assets/images/butbgimg\ \(4\).png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Butcardbg4{
+  background-image: url(./assets/images/butbgimg\ \(3\).png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Butcardbg5{
+  background-image: url(./assets/images/butbgimg\ \(2\).png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Butcardbg6{
+  background-image: url(./assets/images/butbgimg\ \(1\).png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bgnonebox{
+  background-image: url(./assets/images/nonebox.png);
+  background-position: right;
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+}
+.bgiwelcome{
+  background-image: url(./assets/images/bgwlc.png);
+  background-position: right;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.welcardbg{
+  background-image: url(./assets/images/welcardbg.png);
+  background-position: right;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bgrewardbg{
+  background-image: url(./assets/images/rewardbg.png);
+  background-position: right;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: -14rem;
+}
+.textStrock{
+  -webkit-text-stroke-width: 3.2px; 
+  -webkit-text-stroke-color: #000;
+}
+.bessttrok{
+  -webkit-text-stroke-width: 3px; 
+  -webkit-text-stroke-color: #000;
+}
+.inputwellat[type="checkbox"] {
+  width: 36.647px;
+  height: 36.647px;
+  background-color: black; /* Black background */
+  border: 2px solid #FFCE00; /* Yellow border */
+  appearance: none; 
+  cursor: pointer;
+  position: relative;
+}
+
+.inputwellat[type="checkbox"]:checked::after {
+  content: ''; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px; 
+  height: 6px;
+  border: solid white; 
+  border-width: 0 0 2px 2px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.inputwellat[type="checkbox"]:focus {
+  outline: 2px solid #FFCE00;
+}
