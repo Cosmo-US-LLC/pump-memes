@@ -8,19 +8,27 @@ import ButNowSection from "./ButNowSection";
 import BecauseSec from "./BecauseSec";
 import WelcomeSe from "./WelcomeSe";
 import RewardsSection from "./RewardsSection";
+import FutureSection from "./FutureSection";
+import StandForFun from "./StandForFunSection";
+import LaunchPadSection from "./LaunchPadSection";
+import FooterSection from "./FooterSection";
 
 function Home() {
   return (
     <div>
-          <HeroSection />
-          <ExplainerSection />
-          <WhatIfPumpSec />
-          <UsersSection />
-          <BigPotentialSec />
-          <ButNowSection/>
-          <BecauseSec/>
-          <WelcomeSe/>
-          <RewardsSection />
+      <HeroSection />
+      <ExplainerSection />
+      <WhatIfPumpSec />
+      <UsersSection />
+      <BigPotentialSec />
+      <ButNowSection />
+      <BecauseSec />
+      <WelcomeSe />
+      <RewardsSection />
+      <FutureSection />
+      <StandForFun />
+      <LaunchPadSection />
+      <FooterSection />
     </div>
   );
 }
