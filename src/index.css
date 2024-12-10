@@ -124,6 +124,12 @@ code {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.bgboxsec{
+  background-image: url(./assets/images/boxesbg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .textStrock{
   -webkit-text-stroke-width: 3.2px; 
   -webkit-text-stroke-color: #000;
@@ -160,4 +166,17 @@ code {
 
 .inputwellat[type="checkbox"]:focus {
   outline: 2px solid #FFCE00;
+}
+.swiper-wrapper{
+  display: flex !important;
+    align-items: center !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: 'next';
+  display: none !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: 'prev';
+  display: none !important;
+
 }

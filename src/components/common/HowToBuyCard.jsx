@@ -27,7 +27,7 @@ const HowToBuyCard = ({
       </div>
       {/* Step */}
 
-      <div className="flex flex-col gap-12 ">
+      <div className="flex flex-col gap-12">
         <h2 className=" text-[32px] font-semibold leading-[29.94px] font-tomorrow text-[#000]">
           {title}
         </h2>

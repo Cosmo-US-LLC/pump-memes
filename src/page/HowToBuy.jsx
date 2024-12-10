@@ -5,60 +5,67 @@ import HowToBuyBackground from "../assets/Svgs/howtobuy/howtobuypumpbackground.s
 import PhantomIcon from "../assets/images/howtobuy/how toBuyPhantant.svg";
 import TrustWalletIcon from "../assets/images/howtobuy/howToBuyTrust.svg";
 import MetaMaskIcon from "../assets/images/howtobuy/howToBuyCat.svg";
-
 import HowToMakeBook from "../assets/images/howtobuy/howToBuyBook.svg";
 import TransactionIcon from "../assets/images/howtobuy/howToBuyDoller.svg";
 import ClaimIcon from "../assets/images/howtobuy/howToiBuyCoine.svg";
 
 const cardData = [
-    {
-      step: "Step 1",
-      title: "Connect your Wallet",
-      description:
-        "Use Phantom Wallet, Metamask or Trust Wallet to connect your wallet in seconds.",
-      icon: HowToMakeBook, // Imported image
-      bgColor: "bg-yellow-400",
-    },
-    {
-      step: "Step 2",
-      title: "Confirm Transaction",
-      description: "You can buy $PUMP with SOL, USDT, ETH, BNB.",
-      icon: TransactionIcon, // Imported image
-      bgColor: "bg-white",
-    },
-    {
-      step: "Step 3",
-      title: "Claim Tokens",
-      description:
-        "Congratulations! You can claim your $PUMP once the pre-sale ends.",
-      icon: ClaimIcon, // Imported image
-      bgColor: "bg-yellow-400",
-    },
-  ];
-  
+  {
+    step: "Step 1",
+    title: "Connect your Wallet",
+    description:
+      "Use Phantom Wallet, Metamask or Trust Wallet to connect your wallet in seconds.",
+    icon: HowToMakeBook,
+    bgColor: "bg-yellow-400",
+  },
+  {
+    step: "Step 2",
+    title: "Confirm Transaction",
+    description: "You can buy $PUMP with SOL, USDT, ETH, BNB.",
+    icon: TransactionIcon,
+    bgColor: "bg-white",
+  },
+  {
+    step: "Step 3",
+    title: "Claim Tokens",
+    description:
+      "Congratulations! You can claim your $PUMP once the pre-sale ends.",
+    icon: ClaimIcon,
+    bgColor: "bg-yellow-400",
+  },
+];
 
 const HowToBuy = () => {
   return (
     <div
       className="relative flex flex-col items-center justify-center w-screen min-h-screen bg-center bg-cover"
       style={{
-        backgroundImage: `url(${HowToBuyBackground})`, // Set background image
+        backgroundImage: `url(${HowToBuyBackground})`,
       }}
     >
-      <h1
-        className="mb-6 text-center text-[55px] font-bold leading-normal capitalize"
-        style={{
-          color: "#FFF", // White text color
-          WebkitTextStrokeWidth: "1px", // Text stroke
-          WebkitTextStrokeColor: "#000",
-          fontFamily: "Tomorrow, sans-serif", // Custom font
-        }}
-      >
-        How To Buy
-        <br /> <span className="text-[#FFE524]">$PUMP</span>
-      </h1>
+      <div className="flex flex-col items-center justify-center mb-[60px]">
+        <p
+          className="text-center text-[55px] text-[#FFF] font-bold capitalize"
+          style={{
+            WebkitTextStrokeWidth: "1px",
+            WebkitTextStrokeColor: "#000",
+            fontFamily: "Tomorrow, sans-serif",
+          }}
+        >
+          How To Buy
+        </p>
+        <span
+          className="text-[#FFE524] text-center text-[55px] font-bold mt-[-10px]"
+          style={{
+            WebkitTextStrokeWidth: "1px",
+            WebkitTextStrokeColor: "#000",
+            fontFamily: "Tomorrow, sans-serif",
+          }}
+        >
+          $PUMP
+        </span>
+      </div>
 
-      {/* Cards Section */}
       <div className="grid grid-cols-3 gap-6 mb-6">
         {cardData.map((card, index) => (
           <Card
@@ -72,8 +79,7 @@ const HowToBuy = () => {
         ))}
       </div>
 
-      {/* Buttons Section */}
-      <div className="flex gap-4 mb-6">
+      <div className="flex gap-6 mb-6">
         <Button
           label="Buy $PUMP"
           variant="primary"
@@ -86,11 +92,10 @@ const HowToBuy = () => {
         />
       </div>
 
-      {/* Footer Icons */}
-      <div className="flex items-center justify-center gap-6">
-        <img src={PhantomIcon} alt="Phantom" className="h-10" />
-        <img src={TrustWalletIcon} alt="Trust Wallet" className="h-10" />
-        <img src={MetaMaskIcon} alt="MetaMask" className="h-10" />
+      <div className="flex items-center justify-center gap-10">
+        <img src={PhantomIcon} alt="Phantom" className="h-[76px] w-[84px]" />
+        <img src={TrustWalletIcon} alt="Trust Wallet" className="h-[76px] w-[84px]" />
+        <img src={MetaMaskIcon} alt="MetaMask" className="h-[76px] w-[84px]" />
       </div>
     </div>
   );
