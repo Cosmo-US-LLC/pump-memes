@@ -11,16 +11,16 @@ const LiveStreamsSection = () => {
         backgroundImage: `url(${HowToBuyBackground})`,
       }}
     >
-      <div className="flex flex-row items-center max-w-6xl gap-12 p-8">
+      <div className="flex flex-row items-center max-w-[1241px] w-[100%] mx-auto ">
         <div className="flex flex-col gap-6">
-          <h1 className="text-[55px] font-bold leading-none text-white   font-tomorrow">
-            We bring <span className="text-yellow-300">Livestreams Back!</span>
+          <h1 className="text-[55px] font-[700] leading-none text-white   font-[tomorrow]">
+            We bring Livestreams Back!
           </h1>
           <p className="text-[28px] font-normal leading-none text-white font-lato">
             Stream Live And Hype Your Community.
           </p>
 
-          <button className="relative flex items-center gap-4 px-3 py-3 bg-yellow-400 rounded-[8px] shadow-[10px_12px_0px_0px_#F77B00] border-2 border-black">
+          <button className="relative max-w-[303.989px] w-[100%] flex items-center gap-4 px-3 py-3 bg-yellow-400 shadow-[10px_12px_0px_0px_#F77B00] border-2 border-black">
             {/* Icon */}
             <div className="absolute left-[-20px] top-1/2 transform -translate-y-1/2">
               <img

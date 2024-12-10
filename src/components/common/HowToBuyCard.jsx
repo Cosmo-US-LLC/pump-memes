@@ -16,9 +16,9 @@ const HowToBuyCard = ({
 
         {/* Icon */}
         {icon && (
-          <div className="  w-[40px] h-[40px]  flex items-center justify-center">
+          <div className="  w-[50px] h-[50px]  flex items-center justify-center">
             {typeof icon === "string" ? (
-              <img src={icon} alt={title} className="h-8" />
+              <img src={icon} alt={title} className="h-[47px]" />
             ) : (
               icon  
             )}

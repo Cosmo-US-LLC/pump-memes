@@ -54,7 +54,7 @@ const cardData = [
 
 function ButNowSection() {
   return (
-    <div className="bg-[#34AEF0]">
+    <div className="bg-[#34AEF0]" id="features">
       <div className="w-[100%] pt-[65px] pb-[50px]  max-w-[1241px] w-[100%] mx-auto ">
         <div className="space-y-[11px]">
           <h3 className="font-[Tomorrow] text-[96px] text-[#fff] leading-[70%] font-[700] text-center">
