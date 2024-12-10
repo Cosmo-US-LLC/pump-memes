@@ -69,7 +69,7 @@ function WhatIfPumpSec() {
             <h3 className="text-[60px] font-[700] text-center  tracing-[-1.2px]">
               Top 100 On Coinmarketcap?
             </h3>
-            <p className="text-[25px] font-[700] text-center  leading-[128%]">
+            <p className="text-[25px] font-[700] text-center  leading-[128%] pt-4">
               Pump.fun could have easily landed their token in the top 100 on
               CoinMarketCap*, generating incredible returns for early buyers.
             </p>
