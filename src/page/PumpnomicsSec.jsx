@@ -10,7 +10,7 @@ import Pumpnomvect7 from "../assets/Svgs/pumpvect (7).svg";
 
 function PumpnomicsSec() {
   return (
-    <div className="w-[100%] pt-[68px] relative  w-[100%] mx-auto bg-[#F6C929]">
+    <div id="tokenomics" className="w-[100%] pt-[68px] relative  w-[100%] mx-auto bg-[#F6C929]">
      <div className="max-w-[910.934px] pb-[90px] space-y-[30px] w-[100%] mx-auto "
      >
         <h4 className="font-[Tomorrow] text-[55px] font-[700] leading-normal text-center text-[#000]">Pumpnomics</h4>

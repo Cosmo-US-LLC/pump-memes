@@ -38,6 +38,7 @@ const cardData = [
 const HowToBuy = () => {
   return (
     <div
+    id="howtobuy"
       className="relative flex flex-col items-center justify-center w-screen min-h-screen bg-center bg-cover"
       style={{
         backgroundImage: `url(${HowToBuyBackground})`,

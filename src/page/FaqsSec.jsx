@@ -96,7 +96,7 @@ const FaqSec = () => {
 
   return (
     <>
-      <div className="bg-[#002D84] relative" >
+      <div className="bg-[#002D84] relative" id="faq">
         <div className=" w-[100%] max-w-[1155px] pt-[73px] mx-auto pb-[85px]">
           <div className="text-center ">
           <h2 className="text-[#fff] font-[Tomorrow] text-[55px] font-[500] pb-[10px]">

@@ -84,7 +84,7 @@ function FooterSection() {
                 </p>
             </div>
             <p className="absolute bottom-4 text-[#B4A5A5] text-[12px] font-[400] leading-[18px]">
-                Copyright 2024 PUMP MEME | All rights reserved.
+                Copyright 2024 PUMP MEMES | All rights reserved.
             </p>
         </div>
     );
