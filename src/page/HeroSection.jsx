@@ -61,9 +61,11 @@ function HeroSection() {
 
   return (
     <div className="herobg relative pb-[8rem] w-[100%]">
-      <img className="absolute top-[13%] left-0" src={herovector} alt="" />
+      
       <div className="max-w-[1296px] w-[100%] flex justify-between mx-auto pt-[209px]">
+      
         <div className="max-w-[695px] relative w-[100%] pt-[87px]">
+        <img className="absolute top-[-13%] left-[-8%]" src={herovector} alt="" />
           <img
             className="absolute top-[-7%] right-[-5%]"
             src={herovector2}
@@ -95,16 +97,16 @@ function HeroSection() {
             <div className="px-[10px] py-[8px] shadow-3xl flex flex-col items-center bg-[#FFD92F] border border-[#000]">
               <img className="rounded-full" src={herocardimg3} alt="" />
               <h3 className="text-[21.622px] font-[900] text-[#000]">
-                Chill Guy
+                SPX6900
               </h3>
-              <p className="text-[21.622px] font-[400] text-[#000]">$418M</p>
+              <p className="text-[21.622px] font-[400] text-[#000]">$574M</p>
             </div>
             <div className="px-[10px] py-[8px] shadow-3xl flex flex-col items-center bg-[#FFD92F] border border-[#000]">
               <img className="rounded-full" src={herocardimg2} alt="" />
               <h3 className="text-[21.622px] font-[900] text-[#000]">
-                Chill Guy
+              PNUT
               </h3>
-              <p className="text-[21.622px] font-[400] text-[#000]">$418M</p>
+              <p className="text-[21.622px] font-[400] text-[#000]">$1.24B</p>
             </div>
           </div>
           <img

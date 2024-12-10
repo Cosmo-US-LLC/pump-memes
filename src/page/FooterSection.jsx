@@ -18,14 +18,16 @@ function FooterSection() {
                         src={footerLogo}
                         alt="footerLogo"
                     />
-                    <h1 className="text-[32px] font-[400] leading-[40px] text-[white]">The Easiest And Most Fun Way To Launch And Trade Meme Coins</h1>
-                    <div className="flex flex-row gap-8 mt-8 items-center">
+                    <h1 className="text-[32px] font-normal leading-[40px] text-white font-tomorrow">
+  The Easiest And Most Fun Way<br/> To Launch And Trade Meme Coins
+</h1>
+                    <div className="flex flex-row items-center gap-8 mt-8">
                         <p className="text-[16px] text-[white] leading-[17px] font-[700]">How To Buy</p>
                         <p className="text-[16px] text-[white] leading-[17px] font-[700]">Features</p>
                         <p className="text-[16px] text-[white] leading-[17px] font-[700]">Tokenomics</p>
                         <p className="text-[16px] text-[white] leading-[17px] font-[700]">Roadmap</p>
                         <p className="text-[16px] text-[white] leading-[17px] font-[700]">FAQ</p>
-                        <div className="flex flex-row gap-4 items-center">
+                        <div className="flex flex-row items-center gap-4">
                             <img
                                 className=""
                                 src={flag}

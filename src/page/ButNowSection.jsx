@@ -11,7 +11,7 @@ const cardData = [
       bgClass: "Butcardbg1",
       textColor: "#000",
       title: "Community-Powered:  ",
-      description: "It's never been easier to launch  a token and build a community",
+      description: "It's never been easier to launch a token and build a community",
       imgSrc: butvector1,
     },
     {
@@ -32,7 +32,7 @@ const cardData = [
       bgClass: "Butcardbg4",
       textColor: "#fff",
       title: "24/7 AI Monitoring",
-      description: "   Our AI-powered rating system monitors every project",
+      description: "Our AI-powered rating system monitors every project",
       imgSrc: butvector4,
     },
     {

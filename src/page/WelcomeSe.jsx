@@ -47,7 +47,7 @@ function WelcomeSe() {
           <div className="flex justify-between relative max-w-[991.07px] w-[100%] mx-auto">
             <div className="w-[100%] max-w-[289.067px] px-[30px] py-[45px] welcardbg space-y-[20px]">
                 <h3 className="text-[33px] font-[600] font-[Tomorrow] leading-[120.102%] pb-[15px] text-center text-[#000]">Launch</h3>
-                <p className="text-[25px] font-[400] text-center text-[#000]">Launch your token instantly on Pump Memes for just $1.</p>
+                <p className="text-[25px] font-[400] text-center text-[#000]">Launch your token on Pump Memes in just 2 clicks</p>
                 <div className="flex justify-center">
                 <img src={welcardicn1} alt="" />
                 </div>
@@ -61,7 +61,7 @@ function WelcomeSe() {
             </div>
             <div className="w-[100%] max-w-[289.067px] px-[30px] py-[45px] welcardbg space-y-[20px]">
                 <h3 className="text-[33px] font-[600] font-[Tomorrow] leading-[120.102%] pb-[15px] text-center text-[#000]">Pumps</h3>
-                <p className="text-[25px] font-[400] text-center text-[#000]">Promote and pump your token to new heights..</p>
+                <p className="text-[25px] font-[400] text-center text-[#000]">Promote and pump your token to new heights.</p>
                 <div className="flex justify-center">
                 <img src={welcardicn3} alt="" />
                 </div>
