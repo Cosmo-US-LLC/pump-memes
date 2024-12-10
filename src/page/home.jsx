@@ -21,6 +21,8 @@ import UsersSection from "./UsersSection";
 import WelcomeSe from "./WelcomeSe";
 import WhatIfPumpSec from "./WhatIfPumpSec";
 import WhilePumpSec from "./WhilePumpSec";
+import AlphaBoxesSec from "./AlphaBoxesSec";
+
 
 
 function Home() {
@@ -28,6 +30,7 @@ function Home() {
     <div>
       <HeroSection />
       <ExplainerSection />
+      <AlphaBoxesSec/>
       <WhatIfPumpSec />
       <UsersSection />
       <BigPotentialSec />
