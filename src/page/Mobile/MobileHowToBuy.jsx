@@ -44,27 +44,26 @@ const MobileHowToBuy = () => {
         backgroundImage: `url(${HowToBuyBackground})`,
       }}
     >
-<div className="flex flex-col items-center justify-center mb-10">
-  <p
-    className="text-center text-[45px] font-[Tomorrow] font-bold text-[#FFF] w-[322px]"
-    style={{
-      WebkitTextStrokeWidth: "1.0600600242614746px",
-      WebkitTextStrokeColor: "#000",
-    }}
-  >
-    How To Buy
-  </p>
-  <span
-    className="text-[#FFE524] mt-[-8px] text-center font-[Tomorrow] text-[45px] font-bold w-[322px]"
-    style={{
-      WebkitTextStrokeWidth: "1.0600600242614746px",
-      WebkitTextStrokeColor: "#000",
-    }}
-  >
-    $PUMP
-  </span>
-</div>
-
+      <div className="flex flex-col items-center justify-center mb-10">
+        <p
+          className="text-center text-[45px] font-[Tomorrow] font-bold text-[#FFF] w-[322px]"
+          style={{
+            WebkitTextStrokeWidth: "1.0600600242614746px",
+            WebkitTextStrokeColor: "#000",
+          }}
+        >
+          How To Buy
+        </p>
+        <span
+          className="text-[#FFE524] mt-[-8px] text-center font-[Tomorrow] text-[45px] font-bold w-[322px]"
+          style={{
+            WebkitTextStrokeWidth: "1.0600600242614746px",
+            WebkitTextStrokeColor: "#000",
+          }}
+        >
+          $PUMP
+        </span>
+      </div>
 
       <div className="flex flex-col gap-4 mb-6">
         {cardData.map((card, index) => (
