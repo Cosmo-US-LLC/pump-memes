@@ -9,16 +9,19 @@ const HowToBuyCard = ({
 }) => {
   return (
     <div
-      className={`relative p-6 rounded-[16px] shadow-lg border-4 border-[#000] ${bgColor} flex flex-col justify-between w-[400px] h-[340px]`}
+      className={`relative px-[37px] py-[24px] border-[0.6px] border-[#fff] ${bgColor} flex flex-col justify-between w-[400px] h-[340px]`}
+      style={{
+        boxShadow: "7.409px 8.891px 0px 0px #000",
+      }}
     >
-      <div className="flex justify-between gap-6 ">
+      <div className="flex items-center justify-between gap-6">
         <div className="  text-[14px] font-semibold text-[#000]">{step}</div>
 
         {/* Icon */}
         {icon && (
-          <div className="  w-[50px] h-[50px]  flex items-center justify-center">
+          <div className="max-h-[46px] flex items-center justify-center">
             {typeof icon === "string" ? (
-              <img src={icon} alt={title} className="h-[47px]" />
+              <img src={icon} alt={title} className="" />
             ) : (
               icon  
             )}
@@ -27,7 +30,7 @@ const HowToBuyCard = ({
       </div>
       {/* Step */}
 
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-12 min-h-[220px]">
         <h2 className=" text-[32px] font-semibold leading-[29.94px] font-tomorrow text-[#000]">
           {title}
         </h2>

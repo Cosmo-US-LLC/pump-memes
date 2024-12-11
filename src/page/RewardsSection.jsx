@@ -54,8 +54,8 @@ function RewardsSection() {
                 </div>
                 </div>
                 <div className="max-w-[257px]">
-                    <h4 className="text-[28px] font-[600] font-[Tomorrow] text-start leading-[120.102%] text-[#000]">Daily Airdrops</h4>
-                    <p className="text-[28px] font-[400] text-start leading-[120.102%] text-[#000]">Compete and win exclusive prizes.</p>
+                    <h4 className="text-[28px] font-[600] font-[Tomorrow] text-start leading-[120.102%] text-[#000]">Win Daily Prices</h4>
+                    <p className="text-[28px] font-[400] text-start leading-[120.102%] text-[#000]">Earn daily airdrops from coin launches.</p>
                 </div>
             </div>
             <div className="max-w-[446px] flex justify-center  w-[100%] relative">

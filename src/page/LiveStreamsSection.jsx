@@ -6,7 +6,7 @@ import Clock from "../assets/Svgs/clock.jpg";
 const LiveStreamsSection = () => {
   return (
     <div
-      className="relative bg-[#234780] text-white h-screen w-screen flex items-center justify-center overflow-hidden"
+      className="relative bg-[#234780] text-white h-screen flex items-center justify-center overflow-hidden"
       style={{
         backgroundImage: `url(${HowToBuyBackground})`,
       }}

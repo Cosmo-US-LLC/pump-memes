@@ -118,6 +118,12 @@ code {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.mobileDegensBG{
+  background-image: url(./assets/images/mobileDegensBG.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .bgTopMeme{
   background-image: url(./assets/images/topmemebg.png);
   background-position: center;
