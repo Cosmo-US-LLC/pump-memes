@@ -18,7 +18,7 @@ const ComparisonTable = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center bg-[#C8F1FF] h-screen w-screen">
+    <div className="flex items-center justify-center bg-[#C8F1FF] w-[100%] py-[88px]">
       <div className="bg-[#8B48D4] text-white rounded-lg shadow-lg p-6 w-[992px] h-[741px] flex-shrink-0 flex flex-col rounded-[8px] shadow-[10px_12px_0px_0px_#F77B00]">
       <h1
   className="mb-4 text-[55px] font-bold text-center text-white capitalize font-tomorrow"

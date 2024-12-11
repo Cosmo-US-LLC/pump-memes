@@ -6,8 +6,8 @@ import PhantomIcon from "../assets/images/howtobuy/how toBuyPhantant.svg";
 import TrustWalletIcon from "../assets/images/howtobuy/howToBuyTrust.svg";
 import MetaMaskIcon from "../assets/images/howtobuy/howToBuyCat.svg";
 import HowToMakeBook from "../assets/images/howtobuy/howToBuyBook.svg";
-import TransactionIcon from "../assets/images/howtobuy/howToBuyDoller.svg";
-import ClaimIcon from "../assets/images/howtobuy/howToiBuyCoine.svg";
+import TransactionIcon from "../assets/Svgs/howtobuy/howToBuyDoller.svg";
+import ClaimIcon from "../assets/Svgs/howtobuy/howToiBuyCoine.svg";
 
 const cardData = [
   {
@@ -39,28 +39,26 @@ const HowToBuy = () => {
   return (
     <div
     id="howtobuy"
-      className="relative flex flex-col items-center justify-center w-screen min-h-screen bg-center bg-cover"
+      className="relative flex flex-col items-center justify-center pb-[54px] pt-[64px] bg-center bg-cover"
       style={{
         backgroundImage: `url(${HowToBuyBackground})`,
       }}
     >
       <div className="flex flex-col items-center justify-center mb-[60px]">
         <p
-          className="text-center text-[55px] text-[#FFF] font-bold capitalize"
+          className="text-center text-[55px] text-[#FFF] font-[Tomorrow] font-[700] capitalize"
           style={{
             WebkitTextStrokeWidth: "1px",
             WebkitTextStrokeColor: "#000",
-            fontFamily: "Tomorrow, sans-serif",
           }}
         >
           How To Buy
         </p>
         <span
-          className="text-[#FFE524] text-center text-[55px] font-bold mt-[-10px]"
+          className="text-[#FFE524] text-center font-[Tomorrow] text-[55px] font-[700] mt-[-10px]"
           style={{
             WebkitTextStrokeWidth: "1px",
             WebkitTextStrokeColor: "#000",
-            fontFamily: "Tomorrow, sans-serif",
           }}
         >
           $PUMP
@@ -80,7 +78,7 @@ const HowToBuy = () => {
         ))}
       </div>
 
-      <div className="flex gap-6 mb-6">
+      <div className="flex gap-6 py-[30px]">
         <Button
           label="Buy $PUMP"
           variant="primary"
@@ -93,7 +91,7 @@ const HowToBuy = () => {
         />
       </div>
 
-      <div className="flex items-center justify-center gap-10">
+      <div className="flex items-center justify-center gap-10 pt-[20px]">
         <img src={PhantomIcon} alt="Phantom" className="h-[76px] w-[84px]" />
         <img src={TrustWalletIcon} alt="Trust Wallet" className="h-[76px] w-[84px]" />
         <img src={MetaMaskIcon} alt="MetaMask" className="h-[76px] w-[84px]" />
