@@ -1,6 +1,8 @@
 import Logo from "../assets/Svgs/Logo.svg";
 import arwdwn from "../assets/Svgs/arrwdwn.svg";
 import flag from "../assets/Svgs/eng.svg";
+import menu from "../assets/Svgs/navmenu.svg";
+
 
 function Navbar() {
   const handleScroll = (event, targetId, offset) => {
@@ -20,11 +22,11 @@ function Navbar() {
   };
   return (
     <div className="fixed w-[100%] z-[99]">
-      <div className="max-w-[1296px] w-[100%] mx-auto bg-[#7D67BF] mt-[24px] mb-2 border border-[#000] h-[90px]  shadow-3xl flex justify-between items-center px-[17px]">
+      <div className="max-w-[1296px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%]  mx-auto bg-[#7D67BF] mt-[24px] mb-2 border border-[#000] h-[60px]  shadow-3xl flex justify-between items-center px-[17px]">
         <div>
-          <img src={Logo} alt="" />
+          <img className="2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[100px] max-w-[100px]" src={Logo} alt="" />
         </div>
-        <div className="flex justify-center items-center space-x-[30px]">
+        <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-center items-center space-x-[30px]">
           <a
             href="#howtobuy"
             className="text-[#fff] text-[16px] font-[700]"
@@ -68,11 +70,14 @@ function Navbar() {
           </div>
         </div>
         <div className="flex justify-between space-x-[24px]">
-          <button className="w-[178px] h-[56px] text-[#fff] bg-[#000] hover:bg-[#FFCE00] hover:text-[#000] border border-[#000] text-[20px] font-[700]">
+          <button className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden 2xl:w-[178px] xl:w-[178px] lg:w-[178px] md:w-[178px] sm:w-[178px] w-[87.259px] 2xl:h-[56px] xl:h-[56px] lg:h-[56px] md:h-[56px] sm:h-[27px]  h-[27px] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[12px]  text-[12px]  text-[#fff] bg-[#000] hover:bg-[#FFCE00] hover:text-[#000] border border-[#000]  font-[700]">
             Register for Beta
           </button>
-          <button className="w-[178px] h-[56px] bg-[#FFCE00] hover:bg-[#000] hover:text-[#fff] border border-[#000] text-[20px] font-[700]">
+          <button className="2xl:w-[178px] xl:w-[178px] lg:w-[178px] md:w-[178px] sm:w-[178px] w-[87.259px] 2xl:h-[56px] xl:h-[56px] lg:h-[56px] md:h-[56px] sm:h-[27px]  h-[27px] bg-[#FFCE00] hover:bg-[#000] hover:text-[#fff] border border-[#000] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[12px]  text-[12px] font-[700]">
             Join Presale
+          </button>
+          <button className="2xl:block xl:block lg:block md:block sm:flex flex justify-center items-center bg-[#000] px-2">
+            <img src={menu} alt="" />
           </button>
         </div>
       </div>
