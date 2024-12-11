@@ -60,64 +60,72 @@ function MobileHeroSec() {
   };
 
   return (
-    <div className="herobg relative pb-[8rem] w-[100%]">
+    <div className="herobg !bg-cover  relative pb-[3rem] pt-[68px] w-[100%] overflow-hidden">
       
-      <div className="max-w-[1296px] w-[100%] flex justify-between mx-auto pt-[209px]">
+      <div className="w-[90%] mx-auto">
       
         <div className="max-w-[695px] relative w-[100%] pt-[87px]">
-        <img className="absolute top-[-13%] left-[-8%]" src={herovector} alt="" />
+        <img className="absolute top-[4.5%] h-[100px] left-[-8%]" src={herovector} alt="" />
           <img
-            className="absolute top-[-7%] right-[-5%]"
+            className="absolute top-[5%] h-[80px] right-[-18%]"
             src={herovector2}
             alt=""
           />
-          <h4 className="text-[24px] font-[600] text-[#000] pb-[19px]">
+          <h4 className="text-[16px] text-center font-[600] text-[#000] pb-[19px]">
             MORE PUMPS, MORE FUN
           </h4>
-          <h2 className="text-[40px] font-[700] font-[Tomorrow] leading-[125%]">
+          <h2 className="text-[36px] font-[700] text-center font-[Tomorrow] leading-[125%]">
             The Easiest And Most Fun Way  To Launch And Trade Meme Coins
           </h2>
-          <p className="max-w-[641px] w-[100%] text-[20px] font-[400] text-[#000] py-[20px]">
+          <p className=" text-center text-[18px] font-[400] text-[#000] py-[20px]">
             Pump Memes is a platform where users earn, not just the developers.
              It’s secure, fair, and built for the community. $PUMP holders get
              rewards in SOL from every coin launched on the Pump Memes
              Launchpad, all while reaching for the moon together!
           </p>
-          <h3 className="text-[28px] font-[500] font-[Tomorrow] leading-[109.566%] pb-[30px]">
-            Find the Next Crypto Moonshot
+          <h3 className="text-[24px] text-center font-[500] font-[Tomorrow] leading-[109.566%] pb-[30px]">
+            Find the Next <br /> Crypto Moonshot
           </h3>
-          <div className="flex space-x-[18px] max-w-[425px] w-[100%] py-[20px] px-[17px] bg-[#7D67BF] shadow-3xl">
-            <div className="px-[10px] py-[8px] shadow-3xl flex flex-col items-center bg-[#FFD92F] border border-[#000]">
-              <img className="rounded-full" src={herocardimg1} alt="" />
-              <h3 className="text-[21.622px] font-[900] text-[#000]">
+          <div className="flex space-x-[10px] max-w-[304px] w-[100%] mx-auto py-[15px] px-[13px] bg-[#7D67BF] shadow-3xl">
+            <div className="px-[7px] py-[8px] shadow-3xl flex flex-col items-center bg-[#FFD92F] border border-[#000]">
+              <img className="rounded-full p-1" src={herocardimg1} alt="" />
+              <h3 className="text-[16px] font-[900] text-[#000]">
                 Chill Guy
               </h3>
-              <p className="text-[21.622px] font-[400] text-[#000]">$418M</p>
+              <p className="text-[16px] font-[400] text-[#000]">$418M</p>
             </div>
-            <div className="px-[10px] py-[8px] shadow-3xl flex flex-col items-center bg-[#FFD92F] border border-[#000]">
-              <img className="rounded-full" src={herocardimg3} alt="" />
-              <h3 className="text-[21.622px] font-[900] text-[#000]">
+            <div className="px-[7px] py-[8px] shadow-3xl flex flex-col items-center bg-[#FFD92F] border border-[#000]">
+              <img className="rounded-full p-1" src={herocardimg3} alt="" />
+              <h3 className="text-[16px] font-[900] text-[#000]">
                 SPX6900
               </h3>
-              <p className="text-[21.622px] font-[400] text-[#000]">$574M</p>
+              <p className="text-[16px] font-[400] text-[#000]">$574M</p>
             </div>
-            <div className="px-[10px] py-[8px] shadow-3xl flex flex-col items-center bg-[#FFD92F] border border-[#000]">
-              <img className="rounded-full" src={herocardimg2} alt="" />
-              <h3 className="text-[21.622px] font-[900] text-[#000]">
+            <div className="px-[7px] py-[8px] shadow-3xl flex flex-col items-center bg-[#FFD92F] border border-[#000]">
+              <img className="rounded-full p-1" src={herocardimg2} alt="" />
+              <h3 className="text-[16px] font-[900] text-[#000]">
               PNUT
               </h3>
-              <p className="text-[21.622px] font-[400] text-[#000]">$1.24B</p>
+              <p className="text-[16px] font-[400] text-[#000]">$1.24B</p>
             </div>
           </div>
           <img
-            className="absolute bottom-[8%] right-[-2%]"
+            className="absolute top-[68%] h-[50px] left-[-6%]"
             src={herovector3}
             alt=""
           />
+           <img
+          className="absolute top-[61%] h-[50px] right-[-8%]"
+          src={herovector4}
+          alt=""
+        />
         </div>
-        <div className="max-w-[483.742px] w-[100%] min-h-[665px] herowalletbg px-[35px] pb-[35px] pt-[45px] space-y-[20px]">
+        <div className="max-w-[483.742px] relative w-[100%] min-h-[665px] herowalletbg px-[35px] pb-[35px] pt-[45px] space-y-[20px] !mt-[50px]">
+          <div className="max-w-[88.033px] w-[100%] top-[1%] absolute right-[38%] h-[28.895px] flex justify-center text-center items-center mx-auto bg-[#FFCE00] border border-[#000] text-[#000] text-[12.189px] font-[700]">
+          BUY $PUMP
+          </div>
           <div>
-            <h4 className="text-[#2AFF00] text-center text-[36px] font-[900]">
+            <h4 className="text-[#2AFF00] text-center text-[26px] font-[900]">
               $995,012 Raised
             </h4>
           </div>
@@ -127,7 +135,7 @@ function MobileHeroSec() {
             </p>
             <div className="flex justify-center space-x-[33px]">
               <div className="flex flex-col items-center">
-                <p className="text-center text-[#FFCE00] text-[45.809px] font-[700] leading-[100%]">
+                <p className="text-center text-[#FFCE00] text-[33px] font-[700] leading-[100%]">
                   00
                 </p>
                 <p className="text-center text-[10.994px] font-[400] text-[#fff]">
@@ -135,7 +143,7 @@ function MobileHeroSec() {
                 </p>
               </div>
               <div className="flex flex-col items-center">
-                <p className="text-center text-[#FFCE00] text-[45.809px] font-[700] leading-[100%]">
+                <p className="text-center text-[#FFCE00] text-[33px] font-[700] leading-[100%]">
                   20
                 </p>
                 <p className="text-center text-[10.994px] font-[400] text-[#fff]">
@@ -143,7 +151,7 @@ function MobileHeroSec() {
                 </p>
               </div>
               <div className="flex flex-col items-center">
-                <p className="text-center text-[#FFCE00] text-[45.809px] font-[700] leading-[100%]">
+                <p className="text-center text-[#FFCE00] text-[33px] font-[700] leading-[100%]">
                   37
                 </p>
                 <p className="text-center text-[10.994px] font-[400] text-[#fff]">
@@ -151,7 +159,7 @@ function MobileHeroSec() {
                 </p>
               </div>
               <div className="flex flex-col items-center">
-                <p className="text-center text-[#FFCE00] text-[45.809px] font-[700] leading-[100%]">
+                <p className="text-center text-[#FFCE00] text-[33px] font-[700] leading-[100%]">
                   38
                 </p>
                 <p className="text-center text-[10.994px] font-[400] text-[#fff]">
@@ -160,19 +168,19 @@ function MobileHeroSec() {
               </div>
             </div>
           </div>
-          <div className="flex justify-between gap-x-[15px]">
+          <div className="flex justify-between gap-x-[10px]">
             {buttonsData.map((item, index) => (
               <button
                 key={index}
                 onClick={() => handleButtonClick(index)}
-                className={`w-[90px] h-[45.809px] bg-[#50505040] flex items-center justify-center space-x-[8px] ${
+                className={`w-[90px] h-[45.809px] bg-[#50505040] flex items-center justify-center space-x-[5px] px-1 ${
                   activeButton === index
                     ? "border border-[#FFCE00]"
                     : "border border-transparent"
                 }`}
               >
                 <img src={item.img} alt={item} />
-                <span className="text-[12.826px] text-[#fff] font-[400]">
+                <span className="text-[9px] text-[#fff] font-[400]">
                   {item.text}
                 </span>
               </button>
@@ -181,10 +189,10 @@ function MobileHeroSec() {
           <div className="">
             <label htmlFor="" className="text-[12.826px] font-[400] text-[#fff]">You Pay:</label>
             <div className="h-[56px] flex items-center justify-between border-[1.832px] border-[#50505040] p-[5px]">
-              <div className="relative inline-block">
+              <div className="relative inline-block w-[70px]">
                 <button
                   onClick={handleToggleDropdown}
-                  className="px-[10px] h-[45.809px] bg-[#50505040] flex items-center space-x-[8px] border border-transparent "
+                  className="px-[5px] w-[68px] h-[45.809px] bg-[#50505040] flex items-center space-x-[8px] border border-transparent "
                 >
                   <img src={selectedCoin} alt="Selected Coin" />
                   <img
@@ -207,8 +215,8 @@ function MobileHeroSec() {
                   </div>
                 )}
               </div>
-             <div className="space-x-1">
-             <input type="text" placeholder="250"  className="placeholder-[#fff] text-[#fff] text-end h-[45.809px] bg-[#000] outline-none m-0" />
+             <div className="space-x-1 flex items-center w-[50%]">
+             <input type="text" placeholder="250"  className="w-[70%] placeholder-[#fff] text-[#fff] text-end h-[45.809px] bg-[#000] outline-none m-0" />
              <span className="text-[#808080] text-[16.491px] font-[400]">USD</span>
              </div>
              <div className="flex items-cennter space-x-[3.66px]">
@@ -241,20 +249,16 @@ function MobileHeroSec() {
           </div>
             <div className="flex space-x-3 ites-center">
               <div>
-                  <input type="checkbox" name="" className="inputwellat h-[36.647px] w-[36.647px] border bg-black border-[#FFCE00] " id="" />
+                  <input type="checkbox" name="" className="inputwellat h-[33px] w-[33px] border bg-black border-[#FFCE00] " id="" />
               </div>
               <p className="text-[10.994px] font-[400] text-[#fff] leading-[110%]">I agree to the <a href="" className="underline">Terms of Use</a>and <a href="" className="underline">Privacy Policy,</a> certify that I have fully understood the <a href="" className="underline">Risks Disclaimer,</a> and confirm that I am not from a  <a href="" className="underline">Blocked Country</a></p>
             </div>
             <div>
-              <button className="text-[16.491px] font-[700] text-[#000] bg-[#FFCE00] h-[45.809px] border-[1.214px ] border-[#000] w-[100%] hover:bg-[#000] hover:text-[#fff] hover:border hover:border-[#FFCE00]">Buy Now</button>
+              <button className="text-[12.491px] font-[700] text-[#000] bg-[#FFCE00] h-[33px] border-[1.214px ] border-[#000] w-[100%] hover:bg-[#000] hover:text-[#fff] hover:border hover:border-[#FFCE00]">Buy Now</button>
               <a href="" className="text-center flex justify-center text-[#fff] pt-[10px] text-[12.826px] font-[400] underline">Full Discount Chart</a>
             </div>
         </div>
-        <img
-          className="absolute bottom-[-5%] left-[35%] z-[1]"
-          src={herovector4}
-          alt=""
-        />
+       
       </div>
     </div>
   );

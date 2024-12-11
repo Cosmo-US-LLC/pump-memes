@@ -39,6 +39,12 @@ code {
   height: 580px;
   width: 980px;
 }
+.explframbgimgmob{
+  background-image: url(./assets/images/fram.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .bguserSec{
   background-image: url(./assets/images/userbg.png);
   background-position: center;
