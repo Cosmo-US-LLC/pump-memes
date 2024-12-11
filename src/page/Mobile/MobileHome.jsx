@@ -1,13 +1,17 @@
-import React from "react"
+import React from "react";
 
-import MobileHeroSec from "./MobileHeroSec";
-
-
+import MobileFromDegensSec from "./MobileFromDegensSec";
+import MobileTopMemeSec from "./MobileTopMemeSec";
+import MobilePumpnomicsSec from "./MobilePumpnomicsSec";
+import MobileHowToBuy from "./MobileHowToBuy";
 
 function MobileHome() {
   return (
     <div>
-      <MobileHeroSec />
+      <MobileFromDegensSec />
+      <MobileTopMemeSec />
+      <MobilePumpnomicsSec/>
+      <MobileHowToBuy/>
     </div>
   );
 }

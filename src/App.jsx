@@ -19,12 +19,8 @@ function App() {
 
   return (
     <div className="relative bg-[#EDE8DC]">
-      <div className="">
-        <Navbar />
-      </div>
-      <div className="">
-      {isMobile ? <MobileHome /> : <Home />}
-      </div>
+      <div className=""> {/* <Navbar /> */}</div>
+      <div className="">{isMobile ? <MobileHome /> : <Home />}</div>
     </div>
   );
 }

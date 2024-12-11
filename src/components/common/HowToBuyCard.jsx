@@ -14,7 +14,7 @@ const HowToBuyCard = ({
         boxShadow: "7.409px 8.891px 0px 0px #000",
       }}
     >
-      <div className="flex justify-between gap-6 items-center">
+      <div className="flex items-center justify-between gap-6">
         <div className="  text-[14px] font-semibold text-[#000]">{step}</div>
 
         {/* Icon */}

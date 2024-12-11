@@ -23,14 +23,12 @@ import WhatIfPumpSec from "./WhatIfPumpSec";
 import WhilePumpSec from "./WhilePumpSec";
 import AlphaBoxesSec from "./AlphaBoxesSec";
 
-
-
 function Home() {
   return (
     <div>
       <HeroSection />
       <ExplainerSection />
-      <AlphaBoxesSec/>
+      <AlphaBoxesSec />
       <WhatIfPumpSec />
       <UsersSection />
       <BigPotentialSec />
