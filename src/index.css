@@ -93,6 +93,12 @@ code {
   background-size: 60% 100%;
   background-repeat: no-repeat;
 }
+.bgnoneboxmob{
+  background-image: url(./assets/images/noneboxmob.png);
+  background-position: bottom;
+  background-size: 100% 53%;
+  background-repeat: no-repeat;
+}
 .bgiwelcome{
   background-image: url(./assets/images/bgwlc.png);
   background-position: right;
@@ -111,6 +117,13 @@ code {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: -14rem;
+}
+.bgrewardbgmob{
+  background-image: url(./assets/images/rewardbgmob.png);
+  background-position: right;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: -3rem;
 }
 .bggiveback{
   background-image: url(./assets/images/givebackbg.png);
@@ -144,6 +157,10 @@ code {
 }
 .textStrock{
   -webkit-text-stroke-width: 3.2px; 
+  -webkit-text-stroke-color: #000;
+}
+.textStrockmob{
+  -webkit-text-stroke-width: 2px; 
   -webkit-text-stroke-color: #000;
 }
 .bessttrok{
