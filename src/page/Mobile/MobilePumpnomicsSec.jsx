@@ -97,7 +97,7 @@ function MobilePumpnomicsSec() {
       <img src={Pumpnomvect1} className="absolute left-0 top-[14%] w-12" alt="Decoration" />
       <img className="absolute left-6 bottom-[12%] w-12" src={Pumpnomvect2} alt="Decoration" />
       <img className="absolute right-6 bottom-[11%] w-10 h-[47px]" src={Pumpnomvect3} alt="Decoration" />
-      <img className="absolute right-0 top-[-4%] right-[-3%] w-12" src={Pumpnomvect7} alt="Decoration" />
+      <img className="absolute right-0 top-[-4%] right-[-0%] w-12" src={Pumpnomvect7} alt="Decoration" />
     </div>
   );
 }
