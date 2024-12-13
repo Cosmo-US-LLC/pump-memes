@@ -63,7 +63,7 @@ function Navbar() {
             FAQ
           </a>
 
-          <div className="flex justify-center items-center space-x-2">
+          <div className="flex items-center justify-center space-x-2">
             <img src={flag} alt="" />
             <span className="text-[#fff] text-[16px] font-[600]">EN</span>
             <img src={arwdwn} alt="" />

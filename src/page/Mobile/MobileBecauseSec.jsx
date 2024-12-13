@@ -8,19 +8,19 @@ function MobileBecauseSec() {
   return (
     <div className="bg-[#D2FB35] relative">
         <div className="bgnoneboxmob">
-      <div className="  pt-[47px] pb-[25px]">
-        <div className="pb-[45px]">
+      <div className="  pt-[25px] pb-[25px]">
+        <div className="pb-[15px]">
             <h3 className="font-[Tomorrow] text-[60px] font-[700] text-[#fff] bessttrok text-center">Because</h3>
         </div>
-        <div className="w-[100%] space-y-[90px] w-[90%] mx-auto">
-          <div className="w-[100%] space-y-[20px] ">
+        <div className="w-[100%] space-y-[60px] w-[90%] mx-auto">
+          <div className="w-[100%] space-y-[10px] ">
             <h3 className="leading-[120%] font-[Tomorrow] text-[45px] font-[700] text-center">We Want More of This..</h3>
            <div className="flex justify-center">
            <img className="w-[100%]" src={beacuesimg1} alt="" />
            </div>
           </div>
           <div className="w-[100%] space-y-[35px] pt-[50px]">
-            <h3 className="leading-[120%] font-[Tomorrow] text-[45px] font-[700] text-center">..And None Of this</h3>
+            <h3 className="leading-[120%] font-[Tomorrow] text-[45px] font-[700] text-center">..And None <br/> Of this</h3>
            <div className="flex justify-center">
            <img className="w-[100%]" src={beacuesimg2} alt="" />
            </div>

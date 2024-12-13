@@ -6,10 +6,10 @@ import formvect2 from "../../assets/Svgs/formvec (1).svg";
 function MobileFromDegensSec() {
   return (
     <div className=" pt-[40px] pb-[60px] relative mobileDegensBG">
-      <div className="w-full h-[918px] flex flex-col items-center space-y-4 mx-auto">
+      <div className="w-full h-[818px] flex flex-col items-center space-y-4 mx-auto">
         <img
           src={formvect2}
-          className="absolute left-0 top-[25%] w-[71.358px] h-[92px]"
+          className="absolute left-0 top-[27%] w-[71.358px] h-[92px]"
           alt=""
         />
 
@@ -31,7 +31,7 @@ function MobileFromDegensSec() {
 
         <img
           src={formvect1}
-          className="absolute z-[6] right-0 bottom-[10%] w-[162.965px] h-[197.233px]"
+          className="absolute z-[6] right-0 bottom-[6%] w-[162.965px] h-[197.233px]"
           alt=""
         />
       </div>

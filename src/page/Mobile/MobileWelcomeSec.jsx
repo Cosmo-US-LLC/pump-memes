@@ -22,7 +22,7 @@ function MobileWelcomeSec() {
           <img className="absolute right-0 max-h-[50px] top-[19%]" src={welvector3} alt="" />
         <div className="space-y-[20px] w-[90%]  mx-auto">
           <h3 className="text-[#000] leading-[120%] text-[45px] font-[700] font-[Tomorrow] text-center">
-            Welcome to the <br /> Pump Memes Ecosystem
+            Welcome to the Pump Memes Ecosystem
           </h3>
           <p className="text-[25px] pt-[10px] text-[#000] font-[700] text-center leading-[120.102%]">
             Your all-in-one <br /> crypto platform for
@@ -46,9 +46,9 @@ function MobileWelcomeSec() {
             <img src={welpara2} className="absolute right-0" alt="" />
 
           </div>
-        <img className="absolute right-[0%] top-[43%] max-h-[50px]" src={welvector5} alt="" />
-          <div className="grid grid-cols-1 gap-y-[30px] relative pb-[60px] w-[100%] mx-auto">
-            <div className="w-[100%] max-w-[289.067px] mx-auto px-[30px] py-[45px] welcardbg space-y-[20px]">
+        <img className="absolute right-[0%] top-[42%] h-[79px]" src={welvector2} alt="" />
+          <div className="grid grid-cols-1 gap-y-[30px] relative pb-[60px] w-[100%] mx-auto ">
+            <div className="w-[100%] max-w-[289.067px] mx-auto px-[30px] py-[45px] welcardbg space-y-[20px] mt-6">
                 <h3 className="text-[33px] font-[600] font-[Tomorrow] leading-[120.102%] pb-[15px] text-center text-[#000]">Launch</h3>
                 <p className="text-[25px] font-[400] text-center text-[#000]">Launch your token on Pump Memes in just 2 clicks</p>
                 <div className="flex justify-center">
