@@ -25,7 +25,7 @@ function MobileWhatIfPumpSec() {
               backgroundColor: "#2478AF",
               boxShadow: "8px 10px 0px 0px #F26C2F",
             }}
-            className="max-w-[545px]  py-[10px]  min-h-[350px] max-h-[320px] w-[100%] space-y-[15px] px-[25px]"
+            className="max-w-[545px]  py-[10px]  min-h-[388px] max-h-[388px] w-[100%] space-y-[15px] px-[25px]"
           >
             <img
               className="absolute top-[-6.5%]  w-[106%] left-[1%]"
@@ -53,7 +53,7 @@ function MobileWhatIfPumpSec() {
           <div className="relative px-[15px] w-[100%]">
            
           <div
-            className="max-w-[545px]  py-[10px]  min-h-[380px] max-h-[320px] w-[100%] space-y-[15px] px-[25px]"
+            className="max-w-[545px]  py-[10px]  min-h-[380px] max-h-[320px] w-[100%] space-y-[15px] px-[18px]"
             style={{
               backgroundColor: "#FFCE00", 
               boxShadow: "8px 10px 0px 0px #F26C2F",

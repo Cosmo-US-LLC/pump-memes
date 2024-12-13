@@ -16,7 +16,7 @@ const MobileComparisonTable = () => {
     ["Multi-Chain", "✔️", "❌", "❌"],
     ["Credit Card Payment", "✔️", "❌", "❌"],
     ["PNL Statistics", "✔️", "❌", "❌"],
-    ["API Access", "✔️", "❌", "❌"],
+    ["Anti MEV Bots", "✔️", "❌", "❌"],
   ];
 
   return (

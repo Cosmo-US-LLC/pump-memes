@@ -68,7 +68,7 @@ function MobileHeroSec() {
             alt=""
           />
           <img
-            className="absolute top-[5%] h-[80px] right-[-18%]"
+            className="absolute top-[3%] h-[80px] right-[-18%]"
             src={herovector2}
             alt=""
           />
@@ -84,7 +84,7 @@ function MobileHeroSec() {
              rewards in SOL from every coin launched on the Pump Memes
              Launchpad, all while reaching for the moon together!
           </p>
-          <h3 className="text-[24px] text-center font-[500] font-[Tomorrow] leading-[109.566%] pb-[30px]">
+          <h3 className="text-[24px] text-center font-[500] font-[Tomorrow] leading-[109.566%] pt-[8px] pb-[30px]">
             Find the Next <br /> Crypto Moonshot
           </h3>
           <div className="flex space-x-[10px] max-w-[304px] w-[100%] mx-auto py-[15px] px-[13px] bg-[#7D67BF] shadow-3xl">

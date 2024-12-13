@@ -18,7 +18,7 @@ function MobileFromDegensSec() {
         </h4>
 
         <p className="w-[302px] text-[#000] text-center font-[Lato] text-[25px] font-[400] leading-normal">
-          We’re all gonna make it - All of us or none
+          We’re all gonna make it, <br /> All of us or none
         </p>
 
         <div className="flex justify-center pt-[30px] md:pt-[40px]">

@@ -3,9 +3,9 @@ import whileimg1 from "../../assets/images/while (2).png";
 import whileimg2 from "../../assets/images/while (1).png";
 function MobileWhilePumpSec() {
   return (
-    <div className="w-[90%] py-[60px] mx-auto ">
+    <div className="w-[92%] py-[60px] mx-auto ">
       <div className="space-y-[20px]">
-        <h3 className="font-[Tomorrow] text-[35px] font-[700] text-center">
+        <h3 className="font-[Tomorrow] leading-[125%] tracking-[-0.8px] text-[35px] font-[700] text-center">
         While Pump.Fun users are spending <br /> millions of USD in fees daily
         </h3>
         <div className=" pt-[70px] space-y-[50px]">
@@ -24,7 +24,7 @@ function MobileWhilePumpSec() {
             <div className="flex justify-center ">
             <img src={whileimg1} className="max-h-[216px] z-[2] absolute bottom-0" alt="" />
             </div>
-            <p className="text-[25px] relatove pb-[10px] z-[8] font-[700] font-[Tomorrow]  textStrockmob text-start text-[#fff] leading-[128%]">
+            <p className="text-[26px] relatove pb-[10px] z-[8] font-[800] font-[Tomorrow]  textStrockmob text-start text-[#fff] leading-[128%]">
             In the pockets of <br /> the developers
             </p>
           </div>
@@ -45,7 +45,7 @@ function MobileWhilePumpSec() {
             <div className="flex justify-end ">
             <img src={whileimg2} className="max-h-[250px] z-[2] absolute bottom-0 right-[-3%]" alt="" />
             </div>
-            <p className="text-[25px] relatove pb-[10px] z-[8] font-[700] font-[Tomorrow]  textStrockmob text-start text-[#fff] leading-[128%]">
+            <p className="text-[26px] relatove pb-[10px] z-[8] font-[800] font-[Tomorrow]  textStrockmob text-start text-[#fff] leading-[128%]">
             For the Users
             </p>
           </div>

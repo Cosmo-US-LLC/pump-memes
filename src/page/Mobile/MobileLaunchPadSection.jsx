@@ -11,7 +11,7 @@ function MobileLaunchPadSection() {
       <h2 className="w-[332px] text-[#000] text-center font-[Tomorrow] text-[45px] font-[700] leading-[56px]">
         Crypto’s New <br /> Favorite Coin Launchpad
       </h2>
-      <p className="w-[312px] text-[#000] text-center font-[Lato] text-[25px] font-[400] leading-normal  mt-6">
+      <p className="w-[312px] text-[#000] text-center font-[Lato] text-[25px] font-[400] leading-[125%]  mt-6">
         Featured by top media outlets for building <br />
         the most exciting and community driven platform
       </p>
@@ -20,8 +20,8 @@ function MobileLaunchPadSection() {
       <div className="flex flex-col items-center gap-8 px-4 mt-10">
         <div className="relative w-full max-w-[300px]">
           <img className="w-full" src={ml1} alt="message" />
-          <div className="absolute w-[70%] top-[15%] left-[15%]">
-            <p className="font-[400] text-[14px] leading-[20px] text-center">
+          <div className="absolute w-[80%] top-[17%] left-[13%]">
+            <p className="font-[400] text-[14px] leading-[20px] text-start">
               Pump Memes is the better alternative to Pump Fun, offering a more
               rewarding and secure platform that will be available on all major
               chains.
@@ -30,8 +30,8 @@ function MobileLaunchPadSection() {
         </div>
         <div className="relative w-full max-w-[300px]">
           <img className="w-full" src={ml2} alt="message" />
-          <div className="absolute w-[70%] top-[15%] left-[15%]">
-            <p className="font-[400] text-[14px] leading-[20px] text-center">
+          <div className="absolute w-[80%] top-[17%] left-[13%]">
+            <p className="font-[400] text-[14px] leading-[20px] text-start">
               Unlike Pump Fun, Pump Memes is the real deal, eliminating all
               existing problems while making it easier, more exciting, and safer
               to launch a coin.
@@ -40,8 +40,8 @@ function MobileLaunchPadSection() {
         </div>
         <div className="relative w-full max-w-[300px]">
           <img className="w-full" src={ml3} alt="message" />
-          <div className="absolute w-[70%] top-[15%] left-[15%]">
-            <p className="font-[400] text-[14px] leading-[20px] text-center">
+          <div className="absolute w-[80%] top-[17%] left-[13%]">
+            <p className="font-[400] text-[14px] leading-[20px] text-start">
               What if Pump.fun had its own coin? Well, the wait is over with
               $PUMP! Pump Memes is here to shake up the crypto space like never
               before.

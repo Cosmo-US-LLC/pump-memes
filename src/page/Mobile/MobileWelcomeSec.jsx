@@ -19,17 +19,17 @@ function MobileWelcomeSec() {
       <div className="py-[62px] bgiwelcome relative ">
           <img className="absolute right-0 max-h-[50px] top-[0.6%]" src={welvector2} alt="" />
           <img className="absolute left-0 max-h-[50px] top-[11.5%]" src={welvector1} alt="" />
-          <img className="absolute right-0 max-h-[50px] top-[19%]" src={welvector3} alt="" />
-        <div className="space-y-[20px] w-[90%]  mx-auto">
+          <img className="absolute right-0 max-h-[50px] top-[19.7%]" src={welvector3} alt="" />
+        <div className="space-y-[20px] w-[94%]  mx-auto">
           <h3 className="text-[#000] leading-[120%] text-[45px] font-[700] font-[Tomorrow] text-center">
             Welcome to the Pump Memes Ecosystem
           </h3>
           <p className="text-[25px] pt-[10px] text-[#000] font-[700] text-center leading-[120.102%]">
             Your all-in-one <br /> crypto platform for
           </p>
-          <div className="max-w-[524px] mx-auto w-[100%] bg-[#fff] rounded-[50px] py-[6px]">
-            <p className="text-[25px] font-[700] text-[#000] text-center">
-              Pumps, Fun, and Rewards
+          <div className="max-w-[524px] mx-auto w-[100%] bgmoon  py-[6px]">
+            <p className="text-[25px] font-[700] leading-[120%] text-[#000] text-center">
+            Memes, Moonshots <br /> and Rewards
             </p>
           </div>
           <div className="flex items-center relative  py-[130px]">

@@ -40,7 +40,7 @@ function MobileFutureSection() {
     return (
         <div className="bg-[#FF5400] py-16 flex flex-col gap-6" id="roadmap">
             <div className="flex flex-col items-center px-4 text-center">
-                <h2 className="text-[32px] font-[700] leading-[40px] font-[Tomorrow] text-[white]">The Future Of Memes</h2>
+                <h2 className="text-[45px] bessttroksmp font-[700] leading-[40px] font-[Tomorrow] text-[white]">The Future Of Memes</h2>
                 <p className="text-[18px] font-[400] leading-[24px] text-[white] mt-4">
                     Our roadmap is focused on fast growth and mass adoption, delivering the best, safest, and most fun way to launch and trade meme coins.
                 </p>
@@ -123,7 +123,7 @@ function MobileFutureSection() {
         <SwiperSlide >
           <div className="relative p-2"
          >
-            <div className="bg-[#FCC105] w-full  border border-[4px] border-[black] p-[35px]">
+            <div className="bg-[#FCC105] w-full  border border-[4px] border-[black] p-[20px]">
             <img src={rdvect1} className="absolute right-[0%] top-[-1%]" alt="" />
 
                     <p className="text-[16px] font-[600] text-center leading-[20px] mb-2">PHASE 1</p>
@@ -147,7 +147,7 @@ function MobileFutureSection() {
           <div 
           className="relative p-2"
          >
-             <div className="bg-[white] w-full  border border-[4px] border-[black] p-[35px]">
+             <div className="bg-[white] w-full  border border-[4px] border-[black] p-[20px]">
             <img src={rdvect1} className="absolute right-[0%] top-[-1%]" alt="" />
 
                     <p className="text-[16px] font-[600] text-center leading-[20px] mb-2">PHASE 2</p>
@@ -172,7 +172,7 @@ function MobileFutureSection() {
           <div 
           className="relative p-2"
          >
-              <div className="bg-[white] w-full border border-[4px] border-[black] p-[35px]">
+              <div className="bg-[white] w-full border border-[4px] border-[black] p-[20px]">
             <img src={rdvect1} className="absolute right-[1%] top-[-2%]" alt="" />
                     <p className="text-[16px] font-[600] text-center leading-[20px] mb-2">PHASE 3</p>
                     <p className="text-[24px] font-[600] text-center font-[Tomorrow] leading-[29px]">Launch</p>

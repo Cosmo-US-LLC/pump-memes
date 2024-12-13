@@ -12,14 +12,14 @@ function MobileRewardsSection() {
   return (
   <div className="bg-[#C8F1FF] ">
     <div className=" bgrewardbgmob">
-    <div className="w-[90%] py-[65px] mx-auto ">
+    <div className="w-[94%] py-[65px] mx-auto ">
         <div className="max-w-[1047px] w-[100%] mx-auto">
-            <div className="max-w-[689px] space-y-[30px] w-[100%] mx-auto mt-[10rem]">
-                <h3 className="text-[40px] leading-[130%] text-[#000] font-[Tomorrow] font-[700] text-center">Daily and Weekly Community Rewards</h3>
+            <div className="space-y-[23px] w-[100%] mx-auto mt-[10rem]">
+                <h3 className="text-[40px] tracking-[-0.8px] leading-[130%] text-[#000] font-[Tomorrow] font-[700] text-center">Daily and Weekly Community Rewards</h3>
                 <p className="text-[25px] max-w-[273px] mx-auto text-center text-[#000] leading-[120.102%]">A platform designed to earn, win and have fun.</p>
             </div>
         </div>
-        <div className=" min-h-[100vh]  pt-[120px] pb-[120px] w-[100%] m-auto ">
+        <div className=" min-h-[100vh]  pt-[110px] pb-[120px] w-[100%] m-auto ">
            <div className="space-y-[6rem] pb-[160px] max-w-[400px] w-[100%] ">
            <div className="max-w-[346px] w-[100%] relative">
                 <div className="max-w-[257px]">
@@ -36,12 +36,12 @@ function MobileRewardsSection() {
             <div className="max-w-[446px] space-x-3 w-[100%] flex items-center pl-4 relative">
                 <div className="w-[180px]">
                 <div className=" flex flex-col items-center ">
-                    <img src={bigvector4} className="max-h-[30px]" alt="" />
-                    <img src={bigvector3} alt="" />
+                    <img src={bigvector4} className="max-h-[36px]" alt="" />
+                    <img src={bigvector3} className="min-h-[50px]" alt="" />
                 </div>
                 </div>
-                <div className="max-w-[257px] pt-[20px]">
-                    <h4 className="text-[25px] font-[600] font-[Tomorrow] text-start leading-[120.102%] text-[#000]">Win Daily Prices</h4>
+                <div className="max-w-[257px] pt-[25px]">
+                    <h4 className="text-[25px] font-[600] font-[Tomorrow] text-start leading-[120.102%] text-[#000]">Win Daily Prizes</h4>
                     <p className="text-[25px] font-[400] text-start leading-[120.102%] text-[#000]">Earn daily airdrops from coin launches.</p>
                 </div>
             </div>

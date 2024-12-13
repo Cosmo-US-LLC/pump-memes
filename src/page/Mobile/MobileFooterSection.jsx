@@ -22,7 +22,7 @@ function MobileFooterSection() {
           <br /> Way To Launch And Trade Meme Coins
         </h1>
       </div>
-      <div className="flex gap-[80px]">
+      <div className="flex gap-[20px]">
         <div className="flex mt-6">
           <div className="flex flex-col w-[150px] gap-6">
             <p className="text-[14px] text-[white] leading-[16px] font-[700]">
@@ -54,18 +54,18 @@ function MobileFooterSection() {
           </div>
         </div>
         <div className="w-full max-w-[340px] mt-6 text-center flex flex-col items-end">
-          <p className="text-[16px] text-[white] font-[500] leading-[20px] mb-4">
+          <p className="text-[25px] text-[white] font-[500] leading-[20px] mb-4">
             OUR SOCIALS
           </p>
           <div className="flex justify-center gap-4">
-            <img src={social1} alt="social1" className="w-[20px] h-[20px]" />
-            <img src={social2} alt="social2" className="w-[20px] h-[20px]" />
-            <img src={social3} alt="social3" className="w-[20px] h-[20px]" />
+            <img src={social1} alt="social1" className="w-[45.545px] h-[45.545px]" />
+            <img src={social2} alt="social2" className="w-[45.545px] h-[45.545px]" />
+            <img src={social3} alt="social3" className="w-[45.545px] h-[45.545px]" />
           </div>
           <div className="flex justify-center gap-4 mt-4">
-            <img src={social4} alt="social4" className="w-[20px] h-[20px]" />
-            <img src={social5} alt="social5" className="w-[20px] h-[20px]" />
-            <img src={social6} alt="social6" className="w-[20px] h-[20px]" />
+            <img src={social4} alt="social4" className="w-[45.545px] h-[45.545px]" />
+            <img src={social5} alt="social5" className="w-[45.545px] h-[45.545px]" />
+            <img src={social6} alt="social6" className="w-[45.545px] h-[45.545px]" />
           </div>
         </div>
       </div>

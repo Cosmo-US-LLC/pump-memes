@@ -16,7 +16,7 @@ function MobilePumpnomicsSec() {
           Pumpnomics
         </h4>
         <div className="flex justify-center pt-4">
-          <img src={Pumpnomicsimg} className="w-3/4" alt="Pumpnomics" />
+          <img src={Pumpnomicsimg} className="w-[88%]" alt="Pumpnomics" />
         </div>
       </div>
       <div className="bg-[#AFCD3A] border-[1px] border-[#000]">
