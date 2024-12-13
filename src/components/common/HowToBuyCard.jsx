@@ -17,21 +17,25 @@ const HowToBuyCard = ({
       <div className="flex items-center justify-between gap-6">
         <div className="  text-[14px] font-semibold text-[#000]">{step}</div>
 
-        {/* Icon */}
         {icon && (
           <div className="max-h-[46px] flex items-center justify-center">
             {typeof icon === "string" ? (
               <img src={icon} alt={title} className="" />
             ) : (
-              icon  
+              icon
             )}
           </div>
         )}
       </div>
-      {/* Step */}
 
       <div className="flex flex-col gap-12 min-h-[220px]">
-        <h2 className=" text-[32px] font-semibold leading-[29.94px] font-tomorrow text-[#000]">
+        <h2
+          className="text-[32px] font-medium leading-[29.94px] font-[Tomorrow] text-[#000]"
+          style={{
+            WebkitTextStrokeWidth: "1px",
+            WebkitTextStrokeColor: "#000",
+          }}
+        >
           {title}
         </h2>
 

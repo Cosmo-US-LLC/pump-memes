@@ -3,6 +3,7 @@ import HowToBuyBackground from "../assets/Svgs/copyTradersBg.svg";
 import mobile from "../assets/Svgs/mobile.svg";
 import clockFan from "../assets/Svgs/clockFan.svg";
 import lightWave from "../assets/Svgs/lightWave.svg";
+import capsole from "../assets/Svgs/red-capsole.svg";
 
 const CopyBestTradersBanner = () => {
   return (
@@ -23,17 +24,17 @@ const CopyBestTradersBanner = () => {
           Copy The <br />
           Best Meme Traders
         </h1>
-        <div className="absolute top-[30px] left-[-35px] w-[74px] h-[100px]">
-        {/* Pump Memes Illustration */}
         <img
-          src={mobile} // Replace with the actual Pump Memes illustration
+          src={capsole}
           alt="Pump Memes"
-          className="" // Ensures the image fits within the container
+          className="w-[77px] h-[92px] absolute top-[32%] left-[48%]"
         />
-      </div>
+        <div className="absolute top-[30px] left-[-35px] w-[74px] h-[100px]">
+          <img src={mobile} alt="Pump Memes" className="" />
+        </div>
       </div>
 
-      <div className="relative py-[52px] flex flex-col items-center justify-center w-[656px] h-[489px] flex-shrink-0 border border-black bg-[#F26C2F] shadow-[10px_12px_0px_0px_#FFCE00] rounded-tr-lg rounded-br-lg">
+      <div className="relative py-[52px] flex flex-col items-center justify-center w-[656px] h-[489px] flex-shrink-0 border border-black bg-[#F26C2F] shadow-[10px_12px_0px_0px_#FFCE00] ">
         <p className="text-white text-center text-[36px] font-bold w-[363px]">
           The Copy Trading feature will be available soon. Follow the
           top-performing meme traders on Pump Memes and trade like them.
@@ -53,7 +54,6 @@ const CopyBestTradersBanner = () => {
           />
         </div>
       </div>
-       
     </div>
   );
 };

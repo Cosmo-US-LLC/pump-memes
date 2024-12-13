@@ -1,6 +1,6 @@
 import React from "react";
-import HowToBuyBackground from "../assets/Svgs/computerbackgroundiamge.svg";
-import computerimage from "../assets/Svgs/computerimage.svg";
+import HowToBuyBackground from "../assets/Svgs/live-streem-bg.png";
+import computerimage from "../assets/Svgs/mobile-computer.svg";
 import Clock from "../assets/Svgs/clock.jpg";
 
 const LiveStreamsSection = () => {
@@ -20,25 +20,25 @@ const LiveStreamsSection = () => {
             Stream Live And Hype Your Community.
           </p>
 
-          <button className="relative max-w-[303.989px] w-[100%] flex items-center gap-4 px-3 py-3 bg-yellow-400 shadow-[10px_12px_0px_0px_#F77B00] border-2 border-black">
+          <button className="relative w-[303.989px] h-[96px] w-[100%] flex items-center justify-center gap-4 px-3 py-4 bg-yellow-400 shadow-[10px_12px_0px_0px_#F77B00] border-2 border-black">
             {/* Icon */}
             <div className="absolute left-[-20px] top-1/2 transform -translate-y-1/2">
               <img
                 src={Clock} // Replace with actual icon path
                 alt="Clock Icon"
-                className="w-12 h-12"
+                className="w-[70px] h-[86px]"
               />
             </div>
 
             {/* Text */}
-            <span className="text-[18px] font-bold text-black pl-14">
+            <p className="w-[230.778px] flex items-center text-left ml-[35px] text-[#000] font-[Tomorrow] text-[26.044px] font-[700] leading-[normal]">
               24/7 AI Safety Monitoring
-            </span>
+            </p>
           </button>
         </div>
 
         {/* Right Section */}
-        <div className="relative w-[704.59px] h-[497.934px] flex-shrink-0">
+        <div className="relative w-[690.59px] h-[400.934px] flex-shrink-0">
           {/* Pump Memes Illustration */}
           <img
             src={computerimage} // Replace with the actual Pump Memes illustration
