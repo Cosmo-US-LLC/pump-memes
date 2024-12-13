@@ -7,6 +7,11 @@ import MobileWhatIfPumpSec from "./MobileWhatIfPumpSec";
 import MobileUsersSection from "./MobileUsersSection";
 import MobileBigPotentialSec from "./MobileBigPotentialSec";
 import MobileButNowSection from "./MobileButNowSection";
+import MobileBecauseSec from "./MobileBecauseSec";
+import MobileWelcomeSec from "./MobileWelcomeSec";
+import MobileRewardsSection from "./MobileRewardsSection";
+import MobileWhilePumpSec from "./MobileWhilePumpSec";
+import MobileGivingBackSec from "./MobileGivingBackSec";
 
 
 import MobileFromDegensSec from "./MobileFromDegensSec";
@@ -32,10 +37,15 @@ function MobileHome() {
       <MobileUsersSection/>
       <MobileBigPotentialSec/>
       <MobileButNowSection/>
-      <MobileTopMemeSec />
-      <MobileHowToBuy/>
+      <MobileBecauseSec/>
+      <MobileWelcomeSec/>
+      <MobileRewardsSection />
+      <MobileWhilePumpSec/>
+      <MobileGivingBackSec/>
       <MobileFromDegensSec />
+      <MobileTopMemeSec />
       <MobilePumpnomicsSec/>
+      <MobileHowToBuy/>
       <MobileLiveStreamsSection/>
       <MobileCopyBestTradersBanner/>
       <MobileComparisonTable/>
