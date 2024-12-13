@@ -12,11 +12,11 @@ const MobileLiveStreamsSection = () => {
       }}
     >
       <div className="flex flex-col items-center max-w-[90%] w-full mx-auto text-center relative z-10">
-        <h1 className="text-[45px] font-[700] text-white font-[tomorrow] leading-normal w-[346px] text-center stroke-[1.06px] stroke-black">
+        <h1 className="text-[45px] font-[700] text-white font-[tomorrow] leading-normal w-[346px] text-center  bessttroksmp">
           We bring Livestreams Back!
         </h1>
         <p className="text-[25px] font-[400] text-white font-lato leading-normal w-[288px] text-center">
-          Stream Live And Hype Your Community.
+          Stream Live and Hype Your Community.
         </p>
 
         <button className="relative w-full max-w-[229px] flex items-center mt-8 mb-8 gap-4 px-1 py-2 bg-yellow-400 shadow-[10px_12px_0px_0px_#F77B00] border-2 border-black">

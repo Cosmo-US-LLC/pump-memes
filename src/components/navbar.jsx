@@ -24,7 +24,7 @@ function Navbar() {
     <div className="fixed w-[100%] z-[99]">
       <div className="max-w-[1296px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%]  mx-auto bg-[#7D67BF] mt-[24px] mb-2 border border-[#000] 2xl:h-[90px] xl:h-[90px] lg:h-[90px] md:h-[90px] sm:h-[60px] h-[60px]  shadow-3xl flex justify-between items-center px-[17px]">
         <div>
-          <img className="2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[100px] max-w-[100px]" src={Logo} alt="" />
+          <img className="2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[100px] max-w-[130px]" src={Logo} alt="" />
         </div>
         <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-center items-center space-x-[30px]">
           <a
@@ -63,7 +63,7 @@ function Navbar() {
             FAQ
           </a>
 
-          <div className="flex justify-center items-center space-x-2">
+          <div className="flex items-center justify-center space-x-2">
             <img src={flag} alt="" />
             <span className="text-[#fff] text-[16px] font-[600]">EN</span>
             <img src={arwdwn} alt="" />

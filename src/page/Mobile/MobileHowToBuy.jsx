@@ -39,12 +39,12 @@ const MobileHowToBuy = () => {
   return (
     <div
       id="howtobuy"
-      className="relative flex flex-col items-center justify-center pt-16 pb-12 bg-center bg-cover"
+      className="relative flex flex-col items-center justify-center pt-12 pb-12 bg-center bg-cover"
       style={{
         backgroundImage: `url(${HowToBuyBackground})`,
       }}
     >
-      <div className="flex flex-col items-center justify-center mb-10">
+      <div className="flex flex-col items-center justify-center mb-8">
         <p
           className="text-center text-[45px] font-[Tomorrow] font-bold text-[#FFF] w-[322px]"
           style={{

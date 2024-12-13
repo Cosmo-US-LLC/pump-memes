@@ -1,7 +1,7 @@
 
 function ExplainerSection() {
   return (
-    <div className="relative bg-black-300 min-h-[100vh] py-[100px] flex justify-center items-center w-[100%] relative z-[9] explbgimg">
+    <div className="relative bg-black-300 min-h-[130vh] py-[100px] flex justify-center items-center w-[100%] relative z-[9] explbgimg">
         <div>
         <div className="explframbgimg flex justify-center pt-[3rem]">
      <iframe 

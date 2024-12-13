@@ -19,28 +19,28 @@ const cardData = [
       textColor: "#000",
       title: "Automatic LP Lock:",
       description: "Liquidity is locked for at least  1 week to ensure a safe launch",
-      imgSrc: butvector2,
+      imgSrc: butvector4,
     },
     {
       bgClass: "Butcardbg3",
       textColor: "#000",
       title: "Live Support:",
       description: "Our expert support team  is always here to help",
-      imgSrc: butvector3,
+      imgSrc: butvector2,
     },
     {
       bgClass: "Butcardbg4",
       textColor: "#fff",
       title: "24/7 AI Monitoring",
       description: "Our AI-powered rating system monitors every project",
-      imgSrc: butvector4,
+      imgSrc: butvector5,
     },
     {
       bgClass: "Butcardbg5",
       textColor: "#000",
       title: "Fair Platform",
       description: "5% max allocation of total  supply during launch curve",
-      imgSrc: butvector5,
+      imgSrc: butvector3,
     },
     {
       bgClass: "Butcardbg6",

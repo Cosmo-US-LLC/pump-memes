@@ -1,6 +1,7 @@
 import React from "react";
 import whileimg1 from "../assets/images/while (2).png";
 import whileimg2 from "../assets/images/while (1).png";
+import whileimg3 from "../assets/Svgs/user-laptop.svg";
 function WhilePumpSec() {
   return (
     <div className="w-[100%] py-[60px]  max-w-[1103px] w-[100%] mx-auto ">
@@ -23,10 +24,18 @@ function WhilePumpSec() {
             </h3>
             <div className="flex justify-center ">
             <img src={whileimg1} className="max-h-[345px] z-[2] absolute bottom-0" alt="" />
+            <img src={whileimg3} className="max-h-[345px] z-[2] absolute bottom-0 right-0" alt="" />
             </div>
-            <p className="text-[35px] relatove pb-[10px] z-[8] font-[700] font-[Tomorrow]  textStrock text-start text-[#fff] leading-[128%]">
-            In the pockets of <br /> the developers
-            </p>
+            <p
+  className="w-[317px] text-[35px] relative pb-[10px] z-[8] font-[700] font-[Tomorrow] text-start text-[#FFF] leading-[120.102%]"
+  style={{
+    WebkitTextStrokeWidth: "2px",
+    WebkitTextStrokeColor: "#000",
+  }}
+>
+  In the pockets of <br /> the developers
+</p>
+
           </div>
          </div>
           <div className="relative max-w-[537px] w-[100%]">
@@ -45,9 +54,15 @@ function WhilePumpSec() {
             <div className="flex justify-end ">
             <img src={whileimg2} className="max-h-[345px] z-[2] absolute bottom-0 right-[-3%]" alt="" />
             </div>
-            <p className="text-[35px] relatove pb-[10px] z-[8] font-[700] font-[Tomorrow]  textStrock text-start text-[#fff] leading-[128%]">
-            For the Users
-            </p>
+            <p
+  className="text-[42px] relative pb-[10px] z-[8] font-[700] font-[Tomorrow] text-start text-[#FFF] leading-[120.102%]"
+  style={{
+    WebkitTextStrokeWidth: "3px",
+    WebkitTextStrokeColor: "#000",
+  }}
+>
+  For the Users
+</p>
           </div>
           </div>
         </div>

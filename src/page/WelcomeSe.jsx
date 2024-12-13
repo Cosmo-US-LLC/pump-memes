@@ -1,4 +1,4 @@
-import welvector6 from "../assets/images/welbotmvec.png";
+import welvector6 from "../assets/images/welbotmvec1.png";
 import welvector5 from "../assets/images/welvector (1).png";
 import welvector4 from "../assets/images/welvector (2).png";
 import welvector3 from "../assets/images/welvector (3).png";

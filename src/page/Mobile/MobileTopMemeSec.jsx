@@ -11,9 +11,9 @@ function MobileTopMemeSec() {
       <div className="h-[941px] flex flex-col items-start gap-6 mx-auto">
         <div className="flex flex-col items-center w-full max-w-full gap-5 text-center">
           <h4 className="w-[354px] text-[#FFF] text-center font-[Tomorrow] text-[45px] font-[700] leading-normal">
-            Top Meme Coin <br /> Devs <br /> Know What's Best
+            Top Meme Coin <br /> Devs Know What's Best
           </h4>
-          <p className="w-[302px] text-[#FFF] text-center font-[Lato] text-[25px] font-[400] leading-normal">
+          <p className="w-[302px] text-[#FFF] pb-[20px]  text-center font-[Lato] text-[25px] font-[400] leading-normal">
             Over 15 verified meme dev teams, with a combined $5 billion market
             cap, have already signed up on Pump Memes to launch their next
             token, attracted by our platform's new features.

@@ -7,7 +7,7 @@ import givevect4 from "../../assets/Svgs/givevect (3).svg";
 function MobileGivingBackSec() {
   return (
     <div className="w-[100%] py-[60px] mx-auto bggiveback">
-     <div className=" relative space-y-[34px] px-[25px] pt-[50px] pb-[40px] w-[90%] mx-auto bg-[#8F52FA]"
+     <div className=" relative space-y-[34px] px-[15px] pt-[50px] pb-[40px] w-[94%] mx-auto bg-[#8F52FA]"
      style={{
       boxShadow: "10px 12px 0px 0px #3ACD92",
     }}
@@ -17,8 +17,8 @@ function MobileGivingBackSec() {
         <div className="min-h-[150px]  flex justify-center items-center">
           <img src={givevect1} className="max-h-[180px] absolute left-[15%]" alt="" />
           <img src={givevect2} className="absolute max-h-[80px] right-[-3%] top-[-3%]" alt="" />
-          <img src={givevect3} className="absolute max-h-[80px] right-[5%] bottom-[17%]" alt="" />
-          <img src={givevect4} className="absolute max-h-[100px] right-[5%] bottom-[-3%]" alt="" />
+          <img src={givevect3} className="absolute max-h-[100px] right-[5%] bottom-[17%]" alt="" />
+          <img src={givevect4} className="absolute max-h-[120px] right-[5%] bottom-[-3%]" alt="" />
         </div>
      </div>
     </div>

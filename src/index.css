@@ -31,6 +31,18 @@ code {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.explbgimgmob{
+  background-image: url(./assets/images/explorbgmob.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bgmoon{
+  background-image: url(./assets/images/welbgmoon.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .explframbgimg{
   background-image: url(./assets/images/fram.png);
   background-position: center;
@@ -171,11 +183,21 @@ code {
   -webkit-text-stroke-width: 2px; 
   -webkit-text-stroke-color: #000;
 }
+.AlphaSec .swiper {
+  position: absolute !important;
+  /* height: 720px !important; */
+  padding: 2rem 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 1802px !important;
+  left: -60% !important;
+  z-index: 0 !important;
+}
 .inputwellat[type="checkbox"] {
   width: 36.647px;
   height: 36.647px;
-  background-color: black; /* Black background */
-  border: 2px solid #FFCE00; /* Yellow border */
+  background-color: black; 
+  border: 2px solid #FFCE00; 
   appearance: none; 
   cursor: pointer;
   position: relative;
