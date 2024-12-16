@@ -20,12 +20,12 @@ const MobileLiveStreamsSection = () => {
           Stream Live and Hype Your Community.
         </p>
 
-        <button className="relative w-full max-w-[229px] flex items-center mt-8 mb-8 gap-4 px-1 py-2 bg-yellow-400 shadow-[10px_12px_0px_0px_#F77B00] border-2 border-black">
+        <button className="relative w-full max-w-[229px] flex items-center mt-8 mb-8 gap-4 px-1 h-[80px]  btnbg">
           <div className="absolute left-[-20px] top-1/2 transform -translate-y-1/2">
-            <img src={Clock} alt="Clock Icon" className="w-12 h-12" />
+            <img src={Clock} alt="Clock Icon" className="w-[60px] h-[60px]" />
           </div>
 
-          <span className="text-[16px] font-bold text-black pl-10">
+          <span className="text-[19px] font-[Tomorrow] text-start font-[700] leading-[120%] text-black pl-10">
             24/7 AI Safety Monitoring
           </span>
         </button>

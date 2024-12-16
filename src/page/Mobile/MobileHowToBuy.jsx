@@ -39,7 +39,7 @@ const MobileHowToBuy = () => {
   return (
     <div
       id="howtobuy"
-      className="relative flex flex-col items-center justify-center pt-12 pb-12 bg-center bg-cover"
+      className="relative flex flex-col items-center justify-center pt-7 pb-12 bg-center bg-cover"
       style={{
         backgroundImage: `url(${HowToBuyBackground})`,
       }}
