@@ -20,7 +20,10 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
         className="flex items-center justify-between gap-4 py-4 cursor-pointer"
         onClick={handleClick}
       >
+        <div className="flex items-start space-x-3">
+        <div className="h-[19px] w-[19px] bg-[#fff] pt-[6px]"></div>
         <div className="text-[18px] text-[#fff] font-[700]">{question}</div>
+        </div>
         <div
           className={`text-[14px] w-[20px] h-[20px] flex items-center justify-center plusIcon ${
             !isOpen ? "rotate-0" : "rotate-[-180deg]"
@@ -53,32 +56,32 @@ const MobileFaqSec = () => {
     {
       question: "What is $PUMP?",
       answer:
-        "Pump Memes is a community-driven Crypto Launchpad where you can easily launch and trade meme coins with unique features and enhanced functionalities.",
+        "$PUMP is the native token of the Pump Memes ecosystem. Holders earn rewards from fees generated on the platform. 90% of the fees are automatically redistributed to all $PUMP holders, and a portion is used for buybacks and burns to support the token’s growth.",
     },
     {
       question: "What makes Pump Memes different?",
       answer:
-        "Pump Memes is a community-driven Crypto Launchpad where you can easily launch and trade meme coins with unique features and enhanced functionalities.",
+        "Pump Memes stands out by being more secure and offering better features. Unlike other launchpads that keep all earnings, Pump Memes gives back 90% of the fees to the community.",
     },
     {
       question: "How can I launch my own token?",
       answer:
-        "Pump Memes is a community-driven Crypto Launchpad where you can easily launch and trade meme coins with unique features and enhanced functionalities.",
+        "You can easily launch your token with just a few clicks on Pump Memes.",
     },
     {
       question: "What rewards can I earn?",
       answer:
-        "Pump Memes is a community-driven Crypto Launchpad where you can easily launch and trade meme coins with unique features and enhanced functionalities.",
+        "Rewards are paid daily in SOL to all holders, based on the amount of $PUMP they hold.",
     },
     {
       question: "Is the platform secure?",
       answer:
-        "Pump Memes is a community-driven Crypto Launchpad where you can easily launch and trade meme coins with unique features and enhanced functionalities.",
+        "Yes, Pump Memes uses 24/7 AI monitoring for security and is audited by top crypto firms to ensure safety.",
     },
     {
       question: "What’s next for Pump Memes?",
       answer:
-        "Pump Memes is a community-driven Crypto Launchpad where you can easily launch and trade meme coins with unique features and enhanced functionalities.",
+        "We will soon release the Pump Memes Launchpad Beta, followed by the $PUMP token after the pre-sale ends. PUMP holders will start earning daily SOL rewards from day one.",
     },
   ];
   const [openItems, setOpenItems] = useState(null);

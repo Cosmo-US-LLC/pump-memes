@@ -1,3 +1,4 @@
+import React, {useState, useEffect, useRef} from "react"
 import Logo from "../assets/Svgs/Logo.svg";
 import arwdwn from "../assets/Svgs/arrwdwn.svg";
 import flag from "../assets/Svgs/eng.svg";
@@ -5,8 +6,10 @@ import menu from "../assets/Svgs/navmenu.svg";
 
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
   const handleScroll = (event, targetId, offset) => {
-    event.preventDefault(); // Prevent default anchor link behavior
+    event.preventDefault(); 
 
     const targetElement = document.getElementById(targetId);
 
@@ -16,14 +19,38 @@ function Navbar() {
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth", // Smooth scrolling
+        behavior: "smooth", 
       });
     }
+    setMenuOpen(false); 
   };
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setMenuOpen(false); 
+    }
+  };
+
+  useEffect(() => {
+    if (menuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [menuOpen]);
+
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+
   return (
     <div className="fixed w-[100%] z-[99]">
-      <div className="max-w-[1296px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%]  mx-auto bg-[#7D67BF] mt-[24px] mb-2 border border-[#000] 2xl:h-[90px] xl:h-[90px] lg:h-[90px] md:h-[90px] sm:h-[60px] h-[60px]  shadow-3xl flex justify-between items-center px-[17px]">
-        <div>
+      <div className="max-w-[1296px] relative 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%]  mx-auto bg-[#7D67BF] mt-[24px] mb-2 border border-[#000] 2xl:h-[90px] xl:h-[90px] lg:h-[90px] md:h-[90px] sm:h-[60px] h-[60px]  shadow-3xl flex justify-between items-center px-[17px]">
+        <div onClick={(e) => handleScroll(e, "features", 90)}>
           <img className="2xl:max-w-[100%] xl:max-w-[100%] lg:max-w-[100%] md:max-w-[100%] sm:max-w-[100px] max-w-[130px]" src={Logo} alt="" />
         </div>
         <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-center items-center space-x-[30px]">
@@ -76,10 +103,51 @@ function Navbar() {
           <button className="2xl:w-[178px] xl:w-[178px] lg:w-[178px] md:w-[178px] sm:w-[178px] w-[87.259px] 2xl:h-[56px] xl:h-[56px] lg:h-[56px] md:h-[56px] sm:h-[27px]  h-[27px] bg-[#FFCE00] hover:bg-[#000] hover:text-[#fff] border border-[#000] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[12px]  text-[12px] font-[700]">
             Join Presale
           </button>
-          <button className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex justify-center items-center bg-[#000] px-2">
+          <button onClick={toggleMenu} className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex justify-center items-center bg-[#000] px-2">
             <img src={menu} alt="" />
           </button>
         </div>
+      {menuOpen && (
+        <div
+         ref={menuRef}
+         className="absolute top-[62px] left-0 w-[100%] mx-auto py-[30px] bg-[#7D67BF] text-center z-50">
+          <a
+            href="#howtobuy"
+            className="block text-[#fff] text-[16px] font-[700] py-2"
+            onClick={(e) => handleScroll(e, "howtobuy", 90)}
+          >
+            How To Buy
+          </a>
+          <a
+            href="#features"
+            className="block text-[#fff] text-[16px] font-[700] py-2"
+            onClick={(e) => handleScroll(e, "features", 90)}
+          >
+            Features
+          </a>
+          <a
+            href="#tokenomics"
+            className="block text-[#fff] text-[16px] font-[700] py-2"
+            onClick={(e) => handleScroll(e, "tokenomics", 90)}
+          >
+            Tokenomics
+          </a>
+          <a
+            href="#roadmap"
+            className="block text-[#fff] text-[16px] font-[700] py-2"
+            onClick={(e) => handleScroll(e, "roadmap", 90)}
+          >
+            Roadmap
+          </a>
+          <a
+            href="#faq"
+            className="block text-[#fff] text-[16px] font-[700] py-2"
+            onClick={(e) => handleScroll(e, "faq", 90)}
+          >
+            FAQ
+          </a>
+        </div>
+      )}
       </div>
     </div>
   );

@@ -3,12 +3,12 @@ import whileimg1 from "../../assets/images/while (2).png";
 import whileimg2 from "../../assets/images/while (1).png";
 function MobileWhilePumpSec() {
   return (
-    <div className="w-[92%] py-[60px] mx-auto ">
-      <div className="space-y-[20px]">
+    <div className="w-[92%] py-[40px] mx-auto ">
+      <div className="space-y-[15px]">
         <h3 className="font-[Tomorrow] leading-[125%] tracking-[-0.8px] text-[35px] font-[700] text-center">
-        While Pump.Fun users are spending <br /> millions of USD in fees daily
+        While Pump.Fun users are spending millions of USD in fees daily
         </h3>
-        <div className=" pt-[70px] space-y-[50px]">
+        <div className=" pt-[30px] space-y-[50px]">
          <div className="relative w-[100%]">
          <div
             style={{

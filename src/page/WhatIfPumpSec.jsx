@@ -43,11 +43,12 @@ function WhatIfPumpSec() {
                 months, with $88 million in November 2024 alone.
               </p>
               <a
-                href=""
-                className="text-[19px] flex justify-center font-[700] text-[#fff] leading-[168.421%]"
-              >
-                Check the revenue here
-              </a>
+  href=""
+  className="text-[19px] flex justify-center font-[700] text-[#fff] leading-[168.421%] underline decoration-white underline-offset-4"
+>
+  Check the revenue here
+</a>
+
             </div>
           </div>
           <div className="relative max-w-[582px] w-[100%]">
@@ -79,10 +80,10 @@ function WhatIfPumpSec() {
                 Pump.fun could have easily landed their token in the top 100 on
                 CoinMarketCap*, generating incredible returns for early buyers.
               </p>
-              <p className="text-[19px] font-[700] text-center max-w-[442px] w-[100%] mx-auto leading-[105.263%]">
-                *This assumption is based on their earnings, popularity, and
-                user base.
-              </p>
+              <p className="text-[19px] font-[600] text-center w-[442px] mx-auto leading-[20px] font-lato text-black">
+  *This assumption is based on their earnings, popularity, and user base.
+</p>
+
             </div>
           </div>
         </div>

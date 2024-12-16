@@ -25,7 +25,7 @@ function MobileWhatIfPumpSec() {
               backgroundColor: "#2478AF",
               boxShadow: "8px 10px 0px 0px #F26C2F",
             }}
-            className="max-w-[545px]  py-[10px]  min-h-[388px] max-h-[388px] w-[100%] space-y-[15px] px-[25px]"
+            className="max-w-[545px]  py-[10px]  min-h-[388px] max-h-[410px] w-[100%] space-y-[15px] px-[25px]"
           >
             <img
               className="absolute top-[-6.5%]  w-[106%] left-[1%]"
@@ -44,16 +44,16 @@ function MobileWhatIfPumpSec() {
             </p>
             <a
               href=""
-              className="text-[16px] flex justify-center font-[700] text-[#fff] leading-[168.421%]"
+              className="text-[16px] pt-[15px] flex justify-center font-[700] text-[#fff] leading-[168.421%]"
             >
-              Check the revenue here
+              Check the revenue <span className="underline pl-[3px]"> here</span>
             </a>
           </div>
          </div>
           <div className="relative px-[15px] w-[100%]">
            
           <div
-            className="max-w-[545px]  py-[10px]  min-h-[380px] max-h-[320px] w-[100%] space-y-[15px] px-[18px]"
+            className="max-w-[545px]  py-[10px]  min-h-[380px] max-h-[410px] w-[100%] space-y-[15px] px-[18px]"
             style={{
               backgroundColor: "#FFCE00", 
               boxShadow: "8px 10px 0px 0px #F26C2F",
@@ -74,7 +74,7 @@ function MobileWhatIfPumpSec() {
               Pump.fun could have easily landed their token in the top 100 on
               CoinMarketCap*, generating incredible returns for early buyers.
             </p>
-            <p className="text-[16px] font-[700] text-center w-[100%] mx-auto leading-[105.263%]">
+            <p className="text-[16px] pt-[10px]  font-[700] text-center w-[100%] mx-auto leading-[105.263%]">
               *This assumption is based on their earnings, popularity, and user
               base.
             </p>

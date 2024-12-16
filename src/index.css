@@ -167,6 +167,12 @@ code {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.btnbg{
+  background-image: url(./assets/images/webrngbuttn.svg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .textStrock{
   -webkit-text-stroke-width: 3.2px; 
   -webkit-text-stroke-color: #000;

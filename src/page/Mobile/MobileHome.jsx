@@ -32,7 +32,7 @@ function MobileHome() {
     <div>
       <MobileHeroSec />
       <MobileExplainerSection />
-      <MobileAlphaBoxesSec/>
+      {/* <MobileAlphaBoxesSec/> */}
       <MobileWhatIfPumpSec/>
       <MobileUsersSection/>
       <MobileBigPotentialSec/>

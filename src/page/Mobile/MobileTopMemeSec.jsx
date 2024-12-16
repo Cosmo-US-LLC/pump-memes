@@ -7,7 +7,7 @@ import topmemevec4 from "../../assets/Svgs/topmemevecr (2).svg";
 
 function MobileTopMemeSec() {
   return (
-    <div className="w-full pt-[40px] pb-[60px] relative mx-auto bgTopMeme z-10">
+    <div className="w-full pt-[40px] pb-[20px] relative mx-auto bgTopMeme z-10">
       <div className="h-[941px] flex flex-col items-start gap-6 mx-auto">
         <div className="flex flex-col items-center w-full max-w-full gap-5 text-center">
           <h4 className="w-[354px] text-[#FFF] text-center font-[Tomorrow] text-[45px] font-[700] leading-normal">
@@ -34,17 +34,17 @@ function MobileTopMemeSec() {
 
           <div className="relative flex flex-col w-full">
             <img
-              className="absolute left-[29%]   bottom-[45%] w-[32.094px] h-[30.435px] flex-shrink-0"
+              className="absolute left-[30%]   bottom-[32%] w-[32.094px] h-[30.435px] flex-shrink-0"
               src={topmemevec3}
               alt=""
             />
-            <p className=" flex w-[327.231px] h-[37.21px] flex-col p-6 flex-shrink-0 text-[#FFCE00]  font-[Lato] text-[25px] font-[900] leading-normal capitalize">
+            <p className=" flex w-[327.231px] h-[37.21px] flex-col px-6 pt-7 flex-shrink-0 text-[#FFCE00]  font-[Lato] text-[25px] font-[900] leading-normal capitalize">
               Next Stop: $1 Billion
             </p>
           </div>
         </div>
         <div
-          className="bg-[#FFCE00] absolute left-[22%] bottom-[16%]  rotate-[14deg]    w-[38px]  h-[38px]   flex justify-center items-center border border-black"
+          className="bg-[#FFCE00] absolute left-[22%] bottom-[24%]  rotate-[14deg]    w-[38px]  h-[38px]   flex justify-center items-center border border-black"
           style={{
             boxShadow: "4px 4px 0px 0px #000",
           }}
@@ -52,7 +52,7 @@ function MobileTopMemeSec() {
           <img src={topmemevec1} alt="" />
         </div>
         <div
-          className="bg-[#FFCE00] absolute left-[13%] bottom-[10%]  rotate-[-4deg]   w-[38px]  h-[38px]  flex justify-center items-center border border-black"
+          className="bg-[#FFCE00] absolute left-[13%] bottom-[16%]  rotate-[-4deg]   w-[38px]  h-[38px]  flex justify-center items-center border border-black"
           style={{
             boxShadow: "4px 4px 0px 0px #000",
           }}
@@ -60,7 +60,7 @@ function MobileTopMemeSec() {
           <img src={topmemevec2} alt="" />
         </div>
         <div
-          className="bg-[#FFCE00] absolute right-[16%] bottom-[5%]   rotate-[7deg] w-[38px]   h-[38px]   flex justify-center items-center border border-black"
+          className="bg-[#FFCE00] absolute right-[16%] bottom-[6%]   rotate-[7deg] w-[38px]   h-[38px]   flex justify-center items-center border border-black"
           style={{
             boxShadow: "4px 4px 0px 0px #000",
           }}

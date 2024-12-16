@@ -11,26 +11,26 @@ function MobileStandForFun() {
         src={topBorder}
         alt="top border"
       />
-      <h2 className="mt-10 text-[45px] font-[700] text-center font-[Tomorrow] text-[#000] w-[291px] leading-[56px]">
+      <h2 className="mt-10 text-[36px] font-[700] text-center font-[Tomorrow] text-[#000] w-[330px] leading-[56px]">
         We Stand for Fun,
-        <br /> Not Harm
+         Not Harm
       </h2>
       <p className="mt-8 text-[25px] font-[400] text-center font-[Lato] text-[#000] w-[334px] leading-normal">
         Pump Memes is based — no creeps allowed, sorry! ;)
       </p>
 
       <img
-        className="absolute top-[31%] left-[-30px] w-[50%] h-[291px]"
+        className="absolute top-[29%] left-[-30px] w-[50%] h-[291px]"
         src={leftBrackets}
         alt="brackets"
       />
       <img
-        className="absolute top-[31%] right-[-30px] w-[50%] h-[291px]"
+        className="absolute top-[29%] right-[-30px] w-[50%] h-[291px]"
         src={rightBrackets}
         alt="brackets"
       />
 
-      <h2 className="mt-12 text-[35px] font-[700] text-center font-[Tomorrow] text-[#3F44A5] w-[259px] leading-[40px]">
+      <h2 className="pt-16 text-[35px] font-[700] text-center font-[Tomorrow] text-[#3F44A5] w-[259px] leading-[40px]">
         We create a safe and cool space
         <br /> for crypto meme traders
       </h2>

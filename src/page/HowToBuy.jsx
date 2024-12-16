@@ -78,7 +78,7 @@ const HowToBuy = () => {
         ))}
       </div>
 
-      <div className="flex gap-6 py-[30px]">
+      <div className="flex gap-6 pt-[52px]">
         <Button
           label="Buy $PUMP"
           variant="primary"
@@ -91,7 +91,7 @@ const HowToBuy = () => {
         />
       </div>
 
-      <div className="flex items-center justify-center gap-10 pt-[20px]">
+      <div className="flex items-center justify-center gap-10 pt-[52px]">
         <img src={PhantomIcon} alt="Phantom" className="h-[76px] w-[84px]" />
         <img src={TrustWalletIcon} alt="Trust Wallet" className="h-[76px] w-[84px]" />
         <img src={MetaMaskIcon} alt="MetaMask" className="h-[76px] w-[84px]" />
