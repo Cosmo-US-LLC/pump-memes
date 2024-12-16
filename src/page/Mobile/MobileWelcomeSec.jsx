@@ -18,9 +18,9 @@ function MobileWelcomeSec() {
      <div className="bg-[#F6C929] ">
       <div className="py-[62px] bgiwelcome relative ">
           <img className="absolute right-0 max-h-[50px] top-[0.6%]" src={welvector2} alt="" />
-          <img className="absolute left-0 max-h-[50px] top-[11.5%]" src={welvector1} alt="" />
-          <img className="absolute right-0 max-h-[50px] top-[19.7%]" src={welvector3} alt="" />
-        <div className="space-y-[20px] w-[94%]  mx-auto">
+          <img className="absolute left-0 max-h-[50px] top-[12%]" src={welvector1} alt="" />
+          <img className="absolute right-0 max-h-[50px] top-[19.70%]" src={welvector3} alt="" />
+        <div className="space-y-[20px] w-[94%] relative mx-auto">
           <h3 className="text-[#000] leading-[120%] text-[45px] font-[700] font-[Tomorrow] text-center">
             Welcome to the Pump Memes Ecosystem
           </h3>
@@ -28,14 +28,14 @@ function MobileWelcomeSec() {
             Your all-in-one <br /> crypto platform for
           </p>
           <div className="max-w-[524px] mx-auto w-[100%] bgmoon  py-[6px]">
-            <p className="text-[25px] font-[700] leading-[120%] text-[#000] text-center">
-            Memes, Moonshots <br /> and Rewards
+            <p className="text-[20px] font-[600] py-2 text-[#000] text-center">
+            Memes, Moonshots and Rewards
             </p>
           </div>
           <div className="flex items-center relative  py-[130px]">
             <img src={welpara1} className="absolute left-0" alt="" />
             <div className="pb-[10px] w-[100%]">
-              <p className="text-[#000] text-center text-[25px] px-[20px] pt-[1rem] leading-[122%] font-[700]">
+              <p className="text-[#000] text-center text-[24px] px-[20px] pb-2 pt-[1rem] leading-[118%] font-[700]">
                 Pump Memes is more than just a launchpad, it’s a complete
                 ecosystem designed to make the crypto market accessible for
                 everyone in seconds. It gives you the tools to launch tokens
@@ -46,9 +46,9 @@ function MobileWelcomeSec() {
             <img src={welpara2} className="absolute right-0" alt="" />
 
           </div>
-        <img className="absolute right-[0%] top-[42%] h-[79px]" src={welvector2} alt="" />
+        <img className="absolute right-[0%] top-[41.5%] h-[79px]" src={welvector2} alt="" />
           <div className="grid grid-cols-1 gap-y-[30px] relative pb-[60px] w-[100%] mx-auto ">
-            <div className="w-[100%] max-w-[289.067px] mx-auto px-[30px] py-[45px] welcardbg space-y-[20px] mt-6">
+            <div className="w-[100%] max-w-[289.067px] mx-auto px-[30px] py-[45px] welcardbg space-y-[20px] mt-10">
                 <h3 className="text-[33px] font-[600] font-[Tomorrow] leading-[120.102%] pb-[15px] text-center text-[#000]">Launch</h3>
                 <p className="text-[25px] font-[400] text-center text-[#000]">Launch your token on Pump Memes in just 2 clicks</p>
                 <div className="flex justify-center">

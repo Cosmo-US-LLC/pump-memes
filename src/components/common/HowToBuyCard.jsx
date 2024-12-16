@@ -15,7 +15,8 @@ const HowToBuyCard = ({
       }}
     >
       <div className="flex items-center justify-between gap-6">
-        <div className="  text-[14px] font-semibold text-[#000]">{step}</div>
+      <div className="text-black font-[800] text-[20px] leading-[28.8px] font-lato">{step}</div>
+
 
         {icon && (
           <div className="max-h-[46px] flex items-center justify-center">

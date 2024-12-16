@@ -28,7 +28,7 @@ function Home() {
     <div>
       <HeroSection />
       <ExplainerSection />
-      <AlphaBoxesSec />
+      {/* <AlphaBoxesSec /> */}
       <WhatIfPumpSec />
       <UsersSection />
       <BigPotentialSec />

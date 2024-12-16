@@ -6,13 +6,14 @@ import Clock from "../../assets/Svgs/clock.jpg";
 const MobileLiveStreamsSection = () => {
   return (
     <div
-      className="relative bg-[#234780] text-white h-[995px] flex flex-col items-center justify-center overflow-hidden"
+      className="relative bg-[#234780] text-white h-[880px] flex flex-col items-center justify-center overflow-hidden"
       style={{
         backgroundImage: `url(${HowToBuyBackground})`,
       }}
     >
-      <div className="flex flex-col items-center max-w-[90%] w-full mx-auto text-center relative z-10">
-        <h1 className="text-[45px] font-[700] text-white font-[tomorrow] leading-normal w-[346px] text-center  bessttroksmp">
+      {/* <img src={HowToBuyBackground} alt="Clock Icon" className="absolute top-0 bottom-0 left-0 right-0 w-full h-full" /> */}
+      <div className="flex flex-col items-center max-w-[90%] w-full mx-auto text-center relative z-10 mt-[100px]">
+        <h1 className="text-[45px] font-[700] text-white font-[tomorrow] leading-[50px] w-[346px] text-center  bessttroksmp">
           We bring Livestreams Back!
         </h1>
         <p className="text-[25px] font-[400] text-white font-lato leading-normal w-[288px] text-center">
@@ -30,7 +31,7 @@ const MobileLiveStreamsSection = () => {
         </button>
       </div>
 
-      <div className="relative w-[80%] h-auto mt-10">
+      <div className="relative w-[80%] h-auto mt-[50px]">
         <img
           src={computerimage}
           alt="Pump Memes"

@@ -75,7 +75,7 @@ function FutureSection() {
             }}
           >
         <SwiperSlide >
-       <div className="px-2 relative">
+       <div className="relative">
        <div className="h-[443px]  bg-[#FCC105] w-[484px] border border-[4px] border-[black] p-12">
         <img src={rdvect1} className="absolute right-[-3%] top-[-2%]" alt="" />
                     <p className="text-[18px] font-[600] leading-[20px] mb-2 ml-4">PHASE 1</p>
