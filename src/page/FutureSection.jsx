@@ -37,6 +37,14 @@ function FutureSection() {
         "Multiple CEX listings for $PUMP",
         "Start working on Telegram App"
     ];
+    const phase4 = [
+        "Livestream feature goes live",
+        "Major $PUMP CEX listings",
+        "Collaborations with top influencers",
+        "Massive advertisements and promotions",
+        "Launch of 100,000 tokens for pump memes",
+        "Reach 1,000,000 $PUMP token holders"
+    ];
 
     return (
         <div className="bg-[#FF5400] py-24 flex flex-col gap-8" id="roadmap">
@@ -47,8 +55,8 @@ function FutureSection() {
                 </div>
                 <img className="" src={tree} alt="tree" />
             </div>
-            <div className="max-w-[1440px] w-[100%] mx-auto relative">
-            <div className="max-w-[1310px] w-[100%] ml-auto ">
+            <div className="max-w-[1440px] md-width-slider-cont  w-[100%] mx-auto relative">
+            <div className="max-w-[1310px] md-width-slider-wrp  w-[100%] ml-auto ">
                   <Swiper
           modules={[Navigation]}
             spaceBetween={30}
@@ -60,8 +68,11 @@ function FutureSection() {
               prevEl: ".swiper-button-prev",
             }}
             breakpoints={{
+                1400: {
+                    slidesPerView: 2.6,
+                  },
               1024: {
-                slidesPerView: 2.6,
+                slidesPerView: 2.5,
               },
               768: {
                 slidesPerView: 3,
@@ -151,10 +162,37 @@ function FutureSection() {
 
         </div>
         </SwiperSlide>
+        <SwiperSlide >
+        <div className="relative">
+        <div className="h-[443px] bg-[white] w-[484px] border border-[4px] border-[black] p-12">
+        <img src={rdvect1} className="absolute right-[-1%] top-[-2%]" alt="" />
+
+                    <p className="text-[18px] font-[600] leading-[20px] mb-2 ml-4">Phase 4</p>
+                    <p className="text-[32px] font-[600] font-[Tomorrow]  leading-[29px] ml-4">Exponential Growth</p>
+                    <div className="flex flex-col gap-2 mt-10 ml-4">
+                        {
+                            phase4.map((item, index) => {
+                                return (
+                                    <div key={index} className="flex flex-row items-center gap-4">
+                                        {/* <img className="" src={tick} alt="tick" /> */}
+                                        <p className={`text-[18px] font-[400] leading-[28px]`}>{item}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+                <img src={rdvect2} className="absolute left-[0%] bottom-[-1%]" alt="" />
+
+        </div>
+        </SwiperSlide>
           </Swiper>
             </div>
 
           <div className="!h-[65px] !w-[65px] swiper-button-prev  absolute !left-[4%] !top-[50%] -translate-y-1/2 ">
+              <img src={awr1} className="" alt="Previous" />
+            </div>
+            <div className="!h-[65px] !w-[65px] swiper-button-next  absolute !right-[0%] !rotate-[180deg] !top-[50%] -translate-y-1/2 ">
               <img src={awr1} className="" alt="Previous" />
             </div>
             </div>

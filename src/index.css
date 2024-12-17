@@ -237,3 +237,14 @@ code {
   display: none !important;
 
 }
+
+@media only screen and (max-width: 1410px) {
+  .md-width-slider-wrp {
+   max-width: 1240px !important;
+   column-gap: 15px !important;
+  }
+  .md-width-slider-cont {
+    max-width: 1300px !important;
+
+  }
+}
