@@ -36,8 +36,18 @@ function MobileFutureSection() {
         "Multiple CEX listings for $PUMP",
         "Start working on Telegram App"
     ];
+    const phase4 = [
+        "Livestream feature goes live",
+        "Major $PUMP CEX listings",
+        "Collaborations with top influencers",
+        "Massive advertisements and promotions",
+        "Launch of 100,000 tokens for pump memes",
+        "Reach 1,000,000 $PUMP token holders"
+    ];
+
  
-   return (
+
+    return (
         <div className="bg-[#FF5400] py-16 flex flex-col gap-6" id="roadmap">
             <div className="flex flex-col items-center px-4 text-center">
                 <h2 className="text-[45px] bessttroksmp font-[700] leading-[40px] font-[Tomorrow] text-[white]">The Future Of Memes</h2>
@@ -185,6 +195,29 @@ function MobileFutureSection() {
                     </div>
                     <div className="flex justify-end mt-4">
                         <button className="bg-[#808080] text-[white] w-[100px] rounded-full h-[36px] font-[700] text-[14px]">Completed</button>
+                    </div>
+                <img src={rdvect2} className="absolute left-[1%] bottom-[-2%]" alt="" />
+
+                </div>
+          </div>
+        </SwiperSlide>
+          <SwiperSlide >
+          <div 
+          className="relative p-2"
+         >
+              <div className="bg-[white] w-full border border-[4px] border-[black] p-[20px]">
+            <img src={rdvect1} className="absolute right-[1%] top-[-2%]" alt="" />
+                    <p className="text-[16px] font-[600] text-center leading-[20px] mb-2">PHASE 4</p>
+                    <p className="text-[24px] font-[600] text-center font-[Tomorrow] leading-[29px]">Exponential Growth</p>
+                    <div className="flex flex-col gap-2 mt-6">
+                        {phase4.map((item, index) => (
+                            <div key={index} className="flex flex-row items-center gap-2">
+                                <p className="text-[14px] font-[400] leading-[20px]">{item}</p>
+                            </div>
+                        ))}
+                    </div>
+                    <div className="flex justify-end mt-4">
+                        <button className="bg-[#808080] text-[white] w-[100px] rounded-full h-[36px] font-[700] text-[14px]">Pending</button>
                     </div>
                 <img src={rdvect2} className="absolute left-[1%] bottom-[-2%]" alt="" />
 
