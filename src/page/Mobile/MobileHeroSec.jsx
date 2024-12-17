@@ -79,10 +79,7 @@ function MobileHeroSec() {
             The Easiest And Most Fun Way  To Launch And Trade Meme Coins
           </h2>
           <p className=" text-center text-[18px] font-[400] text-[#000] py-[20px]">
-            Pump Memes is a platform where users earn, not just the developers.
-             It’s secure, fair, and built for the community. $PUMP holders get
-             rewards in SOL from every coin launched on the Pump Memes
-             Launchpad, all while reaching for the moon together!
+          Pump Memes is a launchpad where users earn, not just the developers. It’s secure, fair, and built for the community. $PUMP holders get rewards in SOL from every coin launched on Pump Memes, all while reaching for the moon together!
           </p>
           <h3 className="text-[24px] text-center font-[500] font-[Tomorrow] leading-[109.566%] pt-[8px] pb-[30px]">
             Find the Next <br /> Crypto Moonshot

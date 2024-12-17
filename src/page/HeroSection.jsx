@@ -60,10 +60,10 @@ function HeroSection() {
   };
 
   return (
-    <div className="herobg relative pb-[8rem] w-[100%]">
+    <div className="herobg  pb-[8rem] w-[100%]">
       
-        <img className="absolute top-[10%] left-[0%]" src={herovector} alt="" />
-      <div className="max-w-[1296px] w-[100%] flex justify-between mx-auto pt-[209px]">
+      <div className="max-w-[1296px] relative w-[100%] flex justify-between mx-auto pt-[209px]">
+        <img className="absolute top-[12%] left-[0%]" src={herovector} alt="" />
       
         <div className="max-w-[695px] relative w-[100%] pt-[87px]">
           <img
@@ -78,10 +78,7 @@ function HeroSection() {
             The Easiest And Most Fun Way  To Launch And Trade Meme Coins
           </h2>
           <p className="max-w-[641px] w-[100%] text-[20px] font-[400] text-[#000] py-[20px]">
-            Pump Memes is a platform where users earn, not just the developers.
-             It’s secure, fair, and built for the community. $PUMP holders get
-             rewards in SOL from every coin launched on the Pump Memes
-             Launchpad, all while reaching for the moon together!
+          Pump Memes is a launchpad where users earn, not just the developers. It’s secure, fair, and built for the community. $PUMP holders get rewards in SOL from every coin launched on Pump Memes, all while reaching for the moon together!
           </p>
           <h3 className="text-[28px] font-[500] font-[Tomorrow] leading-[109.566%] pb-[30px]">
             Find the Next Crypto Moonshot

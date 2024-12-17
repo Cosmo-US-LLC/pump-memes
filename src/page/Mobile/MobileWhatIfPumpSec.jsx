@@ -53,7 +53,7 @@ function MobileWhatIfPumpSec() {
           <div className="relative px-[15px] w-[100%]">
            
           <div
-            className="max-w-[545px]  py-[10px]  min-h-[380px] max-h-[410px] w-[100%] space-y-[15px] px-[18px]"
+            className="max-w-[545px]  py-[10px]  min-h-[380px] max-h-[410px] w-[100%] space-y-[15px] px-[7px]"
             style={{
               backgroundColor: "#FFCE00", 
               boxShadow: "8px 10px 0px 0px #F26C2F",

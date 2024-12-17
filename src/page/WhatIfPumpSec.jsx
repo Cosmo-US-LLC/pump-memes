@@ -10,7 +10,7 @@ function WhatIfPumpSec() {
         <h3 className="font-[Tomorrow] text-[55px] font-[700]">
           What If Pump.Fun Had A Coin?
         </h3>
-        <p className="text-[25px] font-[400] text-[#000]">
+        <p className="text-[25px]  font-[400] text-[#000]">
           Pump.fun is a platform that makes it easy to launch new meme coins,
           similar to PUMP Memes. It attracted millions of users and became the
           fastest crypto project to generate $100 million in revenue in just 7
@@ -25,7 +25,7 @@ function WhatIfPumpSec() {
                 backgroundColor: "#2478AF",
                 boxShadow: "8px 10px 0px 0px #F26C2F",
               }}
-              className="max-w-[545px]  py-[42px] max-h-[520px] min-h-[520px] w-[100%] space-y-[19px] px-[25px]"
+              className="max-w-[545px]  py-[42px] max-h-[540px] min-h-[540px] w-[100%] space-y-[19px] px-[25px]"
             >
               <img
                 className="absolute top-[-5%] z-10 max-w-[582px] w-[100%] left-[-2%]"
@@ -63,7 +63,7 @@ function WhatIfPumpSec() {
             />
 
             <div
-              className="max-w-[545px] relative z-[9]  max-h-[520px] min-h-[520px] py-[42px] w-[100%] space-y-[19px] px-[15px]"
+              className="max-w-[545px] relative z-[9]  max-h-[540px] min-h-[540px] py-[42px] w-[100%] space-y-[19px] px-[15px]"
               style={{
                 backgroundColor: "#FFCE00",
                 boxShadow: "8px 10px 0px 0px #F26C2F",
