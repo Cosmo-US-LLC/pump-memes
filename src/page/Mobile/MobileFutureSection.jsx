@@ -36,8 +36,8 @@ function MobileFutureSection() {
         "Multiple CEX listings for $PUMP",
         "Start working on Telegram App"
     ];
-
-    return (
+ 
+   return (
         <div className="bg-[#FF5400] py-16 flex flex-col gap-6" id="roadmap">
             <div className="flex flex-col items-center px-4 text-center">
                 <h2 className="text-[45px] bessttroksmp font-[700] leading-[40px] font-[Tomorrow] text-[white]">The Future Of Memes</h2>

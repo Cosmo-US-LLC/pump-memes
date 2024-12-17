@@ -20,7 +20,7 @@ function MobileRewardsSection() {
             </div>
         </div>
         <div className=" min-h-[100vh]  pt-[110px] pb-[120px] w-[100%] m-auto ">
-           <div className="space-y-[6rem] pb-[160px] max-w-[400px] w-[100%] ">
+           <div className="space-y-[3.2rem] pb-[120px] max-w-[400px] w-[100%] ">
            <div className="max-w-[346px] w-[100%] relative">
                 <div className="max-w-[257px]">
                     <h4 className="text-[25px] font-[600] font-[Tomorrow] text-end leading-[120.102%] text-[#000]">Daily Airdrops</h4>
@@ -47,7 +47,7 @@ function MobileRewardsSection() {
             </div>
            
            </div>
-            <div className="space-y-[8rem]">
+            <div className="space-y-[6rem]">
             <div className="max-w-[340px] mx-auto w-[100%] relative">
                 <div className="h-[160px] flex justify-center">
                 <div className=" flex flex-col items-end absolute !top-[-13%]">
@@ -62,14 +62,14 @@ function MobileRewardsSection() {
 
             </div>
             <div className="max-w-[446px] space-x-3 flex  w-[100%] relative">
-                <div className="h-[200px] w-[80%]">
+                <div className="h-[200px] w-[68%]">
                 <div className=" flex flex-col items-start relative">
                     <img src={bigvector8} className="max-h-[50px] absolute !top-[1%] right-[2%]" alt="" />
                     <img src={bigvector7} alt="" />
                 </div>
                 </div>
                 <div className="w-[100%]  mx-auto">
-                    <h4 className="text-[25px] font-[600] font-[Tomorrow] text-start leading-[120.102%] text-[#000]">Anti Rug System</h4>
+                    <h4 className="text-[25px] max-w-[212px] pr-[1.1px] w-[100%]  font-[600] font-[Tomorrow] text-start leading-[120.102%] text-[#000]">Anti Rug System</h4>
                     <p className="text-[25px] max-w-[194px] w-[100%] font-[400] text-start leading-[120.102%] text-[#000]">We have a system in place to prevent Rugs and Scams.</p>
                 </div>
             </div>

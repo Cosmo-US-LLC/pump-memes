@@ -32,7 +32,7 @@ function MobileWelcomeSec() {
             Memes, Moonshots and Rewards
             </p>
           </div>
-          <div className="flex items-center relative  py-[130px]">
+          <div className="flex items-center relative  pt-[130px] pb-[80px]">
             <img src={welpara1} className="absolute left-0" alt="" />
             <div className="pb-[10px] w-[100%]">
               <p className="text-[#000] text-center text-[24px] px-[20px] pb-2 pt-[1rem] leading-[118%] font-[700]">
@@ -46,7 +46,7 @@ function MobileWelcomeSec() {
             <img src={welpara2} className="absolute right-0" alt="" />
 
           </div>
-        <img className="absolute right-[0%] top-[41.5%] h-[79px]" src={welvector2} alt="" />
+        <img className="absolute right-[0%] top-[41.5%] h-[50px]" src={welvector2} alt="" />
           <div className="grid grid-cols-1 gap-y-[30px] relative pb-[60px] w-[100%] mx-auto ">
             <div className="w-[100%] max-w-[289.067px] mx-auto px-[30px] py-[45px] welcardbg space-y-[20px] mt-10">
                 <h3 className="text-[33px] font-[600] font-[Tomorrow] leading-[120.102%] pb-[15px] text-center text-[#000]">Launch</h3>

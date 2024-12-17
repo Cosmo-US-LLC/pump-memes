@@ -42,12 +42,11 @@ function WhatIfPumpSec() {
                 Pump.fun publicly generated over $230 million in revenue in 10
                 months, with $88 million in November 2024 alone.
               </p>
-              <a
-  href=""
-  className="text-[19px] flex justify-center font-[700] text-[#fff] leading-[168.421%] underline decoration-white underline-offset-4"
+              <p
+  className="text-[16px] flex justify-center font-[700] text-[#fff] leading-[168.421%]  "
 >
-  Check the revenue here
-</a>
+  Check the revenue <span className="underline cursor-pointer relative z-[50] pl-[3px]">here</span>
+</p>
 
             </div>
           </div>
@@ -80,7 +79,7 @@ function WhatIfPumpSec() {
                 Pump.fun could have easily landed their token in the top 100 on
                 CoinMarketCap*, generating incredible returns for early buyers.
               </p>
-              <p className="text-[19px] font-[600] text-center w-[442px] mx-auto leading-[20px] font-lato text-black">
+              <p className="text-[16px] font-[600] text-center w-[442px] mx-auto leading-[20px] font-lato text-black">
   *This assumption is based on their earnings, popularity, and user base.
 </p>
 
