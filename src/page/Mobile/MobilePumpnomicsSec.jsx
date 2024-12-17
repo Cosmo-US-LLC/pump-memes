@@ -10,8 +10,8 @@ import Pumpnomvect7 from "../../assets/Svgs/pumpvect (7).svg";
 
 function MobilePumpnomicsSec() {
   return (
-    <div id="tokenomics" className="w-full pt-8 relative mx-auto bg-[#F6C929]">
-      <div className="flex flex-col items-center w-full max-w-lg pb-10 mx-auto space-y-6">
+    <div id="tokenomics" className="w-full pt-[40px] relative mx-auto bg-[#F6C929]">
+      <div className="flex flex-col items-center w-full max-w-lg pb-10 mx-auto space-y-[43px]">
         <h4 className="font-[Tomorrow] text-[#000] text-[45px] font-bold leading-none text-center w-[347px]">
           Pumpnomics
         </h4>
