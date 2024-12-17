@@ -181,7 +181,11 @@ function FutureSection() {
                             })
                         }
                     </div>
+                    <div className="flex flex-row items-end justify-end mt-6">
+                        <button className="bg-[#808080] text-[white] w-[143px] rounded-full h-[41px] font-[700]">Pending</button>
+                    </div>
                 </div>
+
                 <img src={rdvect2} className="absolute left-[0%] bottom-[-1%]" alt="" />
 
         </div>
