@@ -1,7 +1,7 @@
 import React from "react";
-import mobCap1 from "../../assets/Svgs/mob-cap-1.png";
-import mobCap2 from "../../assets/Svgs/mob-cap-2.png";
-import mobCap3 from "../../assets/Svgs/mob-cap-3.png";
+import mobCap1 from "../../assets/images/tabliccn (1).png";
+import mobCap2 from "../../assets/images/tabliccn (3).png";
+import mobCap3 from "../../assets/images/tabliccn (2).png";
 const MobileComparisonTable = () => {
   const columns = [
     { name: "", bgColor: "", image: "" },
@@ -29,15 +29,15 @@ const MobileComparisonTable = () => {
         <div className=" bg-[#8B48D4] w-[345px] h-[378px] flex-shrink-0 overflow-x-auto flex-grow">
           <table className="w-full text-sm text-center border-collapse table-auto">
             <thead>
-              <tr className="bg-[#8B48D4] text-white z-20">
+              <tr className="bg-[#8B48D4]  text-white z-20">
                 {columns.map((col, index) => (
-                  <th key={index} className={`pt-[0.8rem] px-1 ${col.bgColor || ""}`}>
+                  <th key={index} className={`pt-[0.8rem] min-w-[65px] ${col.bgColor || ""}`}>
                     {col.image ? (
-                      <div className="flex items-center justify-center gap-2">
+                      <div className="flex items-center justify-center">
                         <img
                           src={col.image}
                           alt={col.name}
-                          className="h-[100%] w-[100%]"
+                          className=""
                         />
                       </div>
                     ) : (
