@@ -60,13 +60,13 @@ function MobileHeroSec() {
 
   return (
     <div className="herobg !bg-cover  relative pb-[3rem] pt-[68px] w-[100%] overflow-hidden">
-      <div className="w-[90%] mx-auto">
-        <div className="max-w-[695px] relative w-[100%] pt-[87px]">
           <img
-            className="absolute top-[4.5%] h-[100px] left-[-8%]"
+            className="absolute top-[5.5%] h-[100px] left-[-6%]"
             src={herovector}
             alt=""
           />
+      <div className="w-[90%] mx-auto">
+        <div className="max-w-[695px] relative w-[100%] pt-[87px]">
           <img
             className="absolute top-[3%] h-[80px] right-[-18%]"
             src={herovector2}

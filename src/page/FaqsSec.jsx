@@ -129,7 +129,7 @@ const FaqSec = () => {
               alt=""
             />
           </div>
-          <div className="2xl:w-[95%] xl:w-[95%] lg:w-[95%] md:w-[95%] sm:w-[95%] w-[100%] mx-auto">
+          <div className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] mx-auto">
             <div className="">
               {faqData.map((faq, index) => (
                 <FaqItem

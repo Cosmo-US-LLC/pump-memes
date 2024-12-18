@@ -7,7 +7,7 @@ function MobileWhatIfPumpSec() {
   return (
     <div className="w-[100%] pb-[79px] pt-[48px]  w-[94%] mx-auto ">
       <div className="space-y-[40px]">
-        <h3 className="font-[Tomorrow] text-[45px] text-center font-[500]">
+        <h3 className="font-[Tomorrow] text-[45px] text-center font-[700] leading-normal">
           What If <br /> Pump.Fun <br /> Had A Coin?
         </h3>
         <p className="text-[20px] font-[400] !mt-[1.1rem] text-center leading-[110%] text-[#000]">

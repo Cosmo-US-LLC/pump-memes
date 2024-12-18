@@ -16,10 +16,8 @@ const MobileCopyBestTradersBanner = () => {
     >
       <div className="relative flex flex-col items-center justify-center w-[340px] h-[413px] flex-shrink-0 border border-black bg-[#764B30] shadow-[10px_12px_0px_0px_#FFCE00]">
         <h1
-          className="text-[#FFCE00] text-[70px] font-[700] leading-[110%] text-center capitalize font-[Tomorrow]"
+          className="text-[#FFCE00] text-[70px] font-[700] leading-[110%] text-center capitalize font-[Tomorrow] bessttroksmp"
           style={{
-            WebkitTextStrokeWidth: "4.2056097984313965px",
-            WebkitTextStrokeColor: "#000",
             width: "351px",
           }}
         >

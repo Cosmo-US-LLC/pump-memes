@@ -14,7 +14,7 @@ function MobileRewardsSection() {
     <div className=" bgrewardbgmob">
     <div className="w-[94%] py-[65px] mx-auto ">
         <div className="max-w-[1047px] w-[100%] mx-auto">
-            <div className="space-y-[23px] w-[100%] mx-auto mt-[10rem]">
+            <div className="space-y-[32px] w-[100%] mx-auto mt-[8.5rem]">
                 <h3 className="text-[40px] tracking-[-0.8px] leading-[130%] text-[#000] font-[Tomorrow] font-[700] text-center">Daily and Weekly Community Rewards</h3>
                 <p className="text-[25px] max-w-[273px] mx-auto text-center text-[#000] leading-[120.102%]">A platform designed to earn, win and have fun.</p>
             </div>

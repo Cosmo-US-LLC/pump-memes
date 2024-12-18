@@ -13,7 +13,7 @@ const MobileLiveStreamsSection = () => {
     >
       {/* <img src={HowToBuyBackground} alt="Clock Icon" className="absolute top-0 bottom-0 left-0 right-0 w-full h-full" /> */}
       <div className="flex flex-col items-center max-w-[90%] w-full mx-auto text-center relative z-10 mt-[100px]">
-        <h1 className="text-[45px] font-[700] text-white font-[tomorrow] leading-[50px] w-[346px] text-center  bessttroksmp">
+        <h1 className="text-[45px] font-[700] text-white font-[tomorrow] leading-[50px] w-[346px] text-center sttrokmob">
           We bring Livestreams Back!
         </h1>
         <p className="text-[25px] font-[400] text-white font-lato leading-normal w-[288px] text-center">
