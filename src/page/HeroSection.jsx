@@ -60,9 +60,9 @@ function HeroSection() {
   };
 
   return (
-    <div className="herobg  pb-[8rem] w-[100%]">
+    <div className="herobg  pb-[8rem] 2xl:unset xl:relative lg:relative md:relative sm:relative relative w-[100%]">
       
-      <div className="max-w-[1296px] relative w-[100%] flex justify-between mx-auto pt-[209px]">
+      <div className="max-w-[1296px] 2xl:relative xl:unset lg:unset md:unset sm:unset unset w-[100%] flex justify-between mx-auto pt-[209px]">
         <img className="absolute top-[12%] left-[0%]" src={herovector} alt="" />
       
         <div className="max-w-[695px] relative w-[100%] pt-[87px]">
