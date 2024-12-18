@@ -31,13 +31,13 @@ const MobileComparisonTable = () => {
             <thead>
               <tr className="bg-[#8B48D4] text-white z-20">
                 {columns.map((col, index) => (
-                  <th key={index} className={`pt-[0.8rem] px-2 ${col.bgColor || ""}`}>
+                  <th key={index} className={`pt-[0.8rem] px-1 ${col.bgColor || ""}`}>
                     {col.image ? (
                       <div className="flex items-center justify-center gap-2">
                         <img
                           src={col.image}
                           alt={col.name}
-                          className=""
+                          className="h-[100%] w-[100%]"
                         />
                       </div>
                     ) : (

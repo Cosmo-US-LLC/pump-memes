@@ -247,6 +247,50 @@ function Navbar() {
             >
               FAQ
             </a>
+            <div className="py-2" ref={languageRef}>
+            <div
+              className="flex items-center justify-center space-x-2 cursor-pointer"
+              onClick={toggleDropdown}
+            >
+              <img src={selectedLanguage.img} className=" max-h-[18px]" alt="Selected Flag" />
+              <span className="text-[#fff] text-[16px] font-[600]">
+              {selectedLanguage.code}
+              </span>
+              <img
+                src={arwdwn}
+                alt="Dropdown Arrow"
+                className={`transform transition-transform ${
+                  isOpen ? "rotate-180" : "rotate-0"
+                }`}
+              />
+            </div>
+
+            {isOpen && (
+              <div className="w-[335px] bg-[#7D67BF] shadow-3xl px-[15px] pt-[25px] pb-[30px] border absolute top-[92%] right-0 border-[#000] z-10 space-y-[20px]">
+                <h3 className="font-[700] text-[20.593px] font-[Tomorrow] uppercase text-[#FFF]">
+                  Languages
+                </h3>
+                <div className="grid grid-cols-3 gap-y-[18px] gap-x-[2px]">
+                  {flagData.map((items) => (
+                    <div
+                      key={items.key}
+                      className="flex space-x-1 items-center cursor-pointer"
+                      onClick={() => handleLanguageSelect(items)}
+                    >
+                      <img
+                        src={items.img}
+                        alt=""
+                        className="max-h-[18px]"
+                      />
+                      <h4 className="text-[#fff] text-[14px] leading-[110%] font-[500]">
+                        {items.title}
+                      </h4>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
           </div>
         )}
       </div>

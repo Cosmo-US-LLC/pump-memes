@@ -10,7 +10,7 @@ function MobileWhatIfPumpSec() {
         <h3 className="font-[Tomorrow] text-[45px] text-center font-[500]">
           What If <br /> Pump.Fun <br /> Had A Coin?
         </h3>
-        <p className="text-[20px] font-[400] text-center leading-[110%] text-[#000]">
+        <p className="text-[20px] font-[400] !mt-[1.1rem] text-center leading-[110%] text-[#000]">
           Pump.fun is a platform that makes it easy to launch new meme coins,
           similar to PUMP Memes. It attracted millions of users and became the
           fastest crypto project to generate $100 million in revenue in just 7
