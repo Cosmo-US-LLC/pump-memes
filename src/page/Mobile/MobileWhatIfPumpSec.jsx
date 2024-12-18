@@ -5,7 +5,7 @@ import whatvectors2 from "../../assets/images/whatvectorsmob (1).png";
 import whatvectors1 from "../../assets/images/whatvectors (2).png";
 function MobileWhatIfPumpSec() {
   return (
-    <div className="w-[100%] pb-[79px] pt-[48px]  w-[90%] mx-auto ">
+    <div className="w-[100%] pb-[79px] pt-[48px]  w-[94%] mx-auto ">
       <div className="space-y-[40px]">
         <h3 className="font-[Tomorrow] text-[45px] text-center font-[500]">
           What If <br /> Pump.Fun <br /> Had A Coin?
