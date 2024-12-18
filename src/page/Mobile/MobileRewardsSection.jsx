@@ -70,7 +70,7 @@ function MobileRewardsSection() {
                 </div>
                 <div className="w-[100%] mx-auto  pr-[13px]">
                     <h4 className="text-[25px] max-w-[212px]  w-[100%]  font-[600] font-[Tomorrow] text-start leading-[120.102%] text-[#000]">Anti Rug System</h4>
-                    <p className="text-[25px] max-w-[194px] w-[100%] font-[400] text-start leading-[120.102%] text-[#000]">We have a system in place to prevent Rugs and Scams.</p>
+                    <p className="text-[25px] max-w-[193px] w-[100%] font-[400] text-start leading-[120.102%] text-[#000]">We have a system in place to prevent Rugs and Scams.</p>
                 </div>
             </div>
             </div>
