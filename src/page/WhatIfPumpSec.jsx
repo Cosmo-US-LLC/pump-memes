@@ -80,7 +80,7 @@ function WhatIfPumpSec() {
                 CoinMarketCap*, generating incredible returns for early buyers.
               </p>
               <p className="text-[16px] font-[600] text-center w-[442px] mx-auto leading-[20px] font-lato text-black">
-  *This assumption is based on their earnings, popularity, and user base.
+  *This assumption is based on their earnings, <br /> popularity, and user base.
 </p>
 
             </div>

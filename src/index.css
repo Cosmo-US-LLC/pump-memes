@@ -189,6 +189,11 @@ code {
   -webkit-text-stroke-width: 2px; 
   -webkit-text-stroke-color: #000;
 }
+.sttrokmob{
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: #000;
+  
+}
 .AlphaSec .swiper {
   position: absolute !important;
   /* height: 720px !important; */
