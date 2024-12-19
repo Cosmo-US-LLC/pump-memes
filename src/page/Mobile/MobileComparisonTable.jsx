@@ -1,7 +1,7 @@
 import React from "react";
 import mobCap1 from "../../assets/Svgs/tablsvg (3).svg";
 import mobCap2 from "../../assets/Svgs/tablsvg (2).svg";
-import mobCap3 from "../../assets/Svgs/tablsvg (1).svg";
+import mobCap3 from "../../assets/Svgs/moonshot.svg";
 const MobileComparisonTable = () => {
   const columns = [
     { name: "", bgColor: "", image: "" },

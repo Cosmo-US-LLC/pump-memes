@@ -1,6 +1,7 @@
 import React from "react";
 import whileimg1 from "../../assets/images/while (2).png";
 import whileimg2 from "../../assets/images/while (1).png";
+import pumpMemsLaptop from "../../assets/Svgs/pump-mems-laptop.svg";
 function MobileWhilePumpSec() {
   return (
     <div className="w-[92%] py-[40px] mx-auto ">
@@ -27,6 +28,8 @@ function MobileWhilePumpSec() {
             <p className="text-[26px] relatove pb-[10px] z-[8] font-[800] font-[Tomorrow]  textStrockmob text-start text-[#fff] leading-[128%]">
             In the pockets of <br /> the developers
             </p>
+            <img src={whileimg1} className="max-h-[216px] z-[2] absolute bottom-0" alt="" />
+            <img src={pumpMemsLaptop} className="max-h-[345px] z-[2] absolute bottom-0 right-0" alt="" />
           </div>
          </div>
           <div className="relative w-[100%]">
