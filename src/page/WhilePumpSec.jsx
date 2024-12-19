@@ -1,7 +1,7 @@
 import React from "react";
 import whileimg1 from "../assets/images/while (2).png";
 import whileimg2 from "../assets/images/while (1).png";
-import whileimg3 from "../assets/Svgs/user-laptop.svg";
+import whileimg3 from "../assets/Svgs/pump-mems-laptop.svg";
 function WhilePumpSec() {
   return (
     <div className="w-[100%] py-[60px]  max-w-[1103px] w-[100%] mx-auto ">

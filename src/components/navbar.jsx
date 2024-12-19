@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Logo from "../assets/Svgs/Logo.svg";
+import Logo from "../assets/Svgs/pump-mems-logo.svg";
 import arwdwn from "../assets/Svgs/arrwdwn.svg";
 import flag from "../assets/Svgs/eng.svg";
 import menu from "../assets/Svgs/navmenu.svg";
@@ -174,7 +174,7 @@ function Navbar() {
                   {flagData.map((items) => (
                     <div
                       key={items.key}
-                      className="flex space-x-2 items-center cursor-pointer"
+                      className="flex items-center space-x-2 cursor-pointer"
                       onClick={() => handleLanguageSelect(items)}
                     >
                       <img
@@ -274,7 +274,7 @@ function Navbar() {
                   {flagData.map((items) => (
                     <div
                       key={items.key}
-                      className="flex space-x-1 items-center cursor-pointer"
+                      className="flex items-center space-x-1 cursor-pointer"
                       onClick={() => handleLanguageSelect(items)}
                     >
                       <img

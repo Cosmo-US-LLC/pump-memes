@@ -1,3 +1,4 @@
+import { useState } from "react";
 import footerLogo from "../assets/Svgs/footerlogo.svg";
 import social1 from "../assets/Svgs/social1.svg";
 import social2 from "../assets/Svgs/social2.svg";
@@ -5,93 +6,125 @@ import social3 from "../assets/Svgs/social3.svg";
 import social4 from "../assets/Svgs/social4.svg";
 import social5 from "../assets/Svgs/social5.svg";
 import social6 from "../assets/Svgs/social6.svg";
-import flag from "../assets/Svgs/flag.svg";
-import arrowDown from "../assets/Svgs/arrow-down.svg";
+
+const languages = [
+  { code: "EN", name: "English", flag: "https://flagcdn.com/w320/gb.png" },
+  { code: "FR", name: "French", flag: "https://flagcdn.com/w320/fr.png" },
+  { code: "DE", name: "German", flag: "https://flagcdn.com/w320/de.png" },
+  { code: "ES", name: "Spanish", flag: "https://flagcdn.com/w320/es.png" },
+];
 
 function FooterSection() {
-    return (
-       <div className="bg-[black] w-[100%]">
-         <div className="h-[490px] w-[100%] max-w-[1155px] pt-[73px] mx-auto  py-8 flex flex-col items-center">
-            <div className="flex flex-row justify-between w-[100%] items-center">
-                <div className="w-[703px]">
-                    <img
-                        className="mb-8"
-                        src={footerLogo}
-                        alt="footerLogo"
-                    />
-                    <h1 className="text-[32px] font-normal leading-[40px] text-white font-tomorrow">
-  The Easiest And Most Fun Way<br/> To Launch And Trade Meme Coins
-</h1>
-                    <div className="flex flex-row items-center gap-8 mt-8">
-                        <p className="text-[16px] text-[white] leading-[17px] font-[700]">How To Buy</p>
-                        <p className="text-[16px] text-[white] leading-[17px] font-[700]">Features</p>
-                        <p className="text-[16px] text-[white] leading-[17px] font-[700]">Tokenomics</p>
-                        <p className="text-[16px] text-[white] leading-[17px] font-[700]">Roadmap</p>
-                        <p className="text-[16px] text-[white] leading-[17px] font-[700]">FAQ</p>
-                        <div className="flex flex-row items-center gap-4">
-                            <img
-                                className=""
-                                src={flag}
-                                alt="flag"
-                            />
-                            <p className="text-[16px] text-[white] leading-[17px] font-[600]">EN</p>
-                            <img
-                                className=""
-                                src={arrowDown}
-                                alt="arrowDown"
-                            />
-                        </div>
-                    </div>
+  const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => setIsOpen(!isOpen);
+
+  const selectLanguage = (language) => {
+    setSelectedLanguage(language);
+    setIsOpen(false);
+  };
+  return (
+    <div className="bg-[black] w-[100%]">
+      <div className="h-[490px] w-[100%] max-w-[1155px] pt-[73px] mx-auto  py-8 flex flex-col items-center">
+        <div className="flex flex-row justify-between w-[100%] items-center">
+          <div className="w-[703px]">
+            <img className="mb-8" src={footerLogo} alt="footerLogo" />
+            <h1 className="text-[32px] font-normal leading-[40px] text-white font-tomorrow">
+              The Easiest And Most Fun Way
+              <br /> To Launch And Trade Meme Coins
+            </h1>
+            <div className="flex flex-row items-center gap-8 mt-8">
+              <p className="text-[16px] text-[white] leading-[17px] font-[700]">
+                How To Buy
+              </p>
+              <p className="text-[16px] text-[white] leading-[17px] font-[700]">
+                Features
+              </p>
+              <p className="text-[16px] text-[white] leading-[17px] font-[700]">
+                Tokenomics
+              </p>
+              <p className="text-[16px] text-[white] leading-[17px] font-[700]">
+                Roadmap
+              </p>
+              <p className="text-[16px] text-[white] leading-[17px] font-[700]">
+                FAQ
+              </p>
+              <div className="relative inline-block">
+                <div
+                  className="flex items-center py-2 space-x-2 text-white bg-black rounded cursor-pointer"
+                  onClick={toggleDropdown}
+                >
+                  <img
+                    src={selectedLanguage.flag}
+                    alt={`${selectedLanguage.name} Flag`}
+                    className="w-5 h-3"
+                  />
+                  <span>{selectedLanguage.code}</span>
+                  <span className="text-sm">▼</span>
                 </div>
-                <div>
-                    <p className="text-[28px] text-[white] font-[400] leading-[30px] mb-4">OUR SOCIALS</p>
-                    <div className="flex flex-row gap-4">
+
+                {isOpen && (
+                  <ul className="absolute z-20 bg-white border border-gray-300 rounded shadow-lg w-30 mt-[-2px]">
+                    {languages.map((language) => (
+                      <li
+                        key={language.code}
+                        className="flex items-center px-2 py-1 space-x-2 cursor-pointer hover:bg-gray-100"
+                        onClick={() => selectLanguage(language)}
+                      >
                         <img
-                            className=""
-                            src={social1}
-                            alt="social1"
+                          src={language.flag}
+                          alt={`${language.name} Flag`}
+                          className="w-5 h-3"
                         />
-                        <img
-                            className=""
-                            src={social2}
-                            alt="social2"
-                        />
-                        <img
-                            className=""
-                            src={social3}
-                            alt="social3"
-                        />
-                    </div>
-                    <div className="flex flex-row gap-4 mt-4">
-                        <img
-                            className=""
-                            src={social4}
-                            alt="social4"
-                        />
-                        <img
-                            className=""
-                            src={social5}
-                            alt="social5"
-                        />
-                        <img
-                            className=""
-                            src={social6}
-                            alt="social6"
-                        />
-                    </div>
-                </div>
+                        <span>{language.code}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             </div>
-            <div className="w-[100%] mt-8">
-                <p className="text-[#B4A5A5] text-[14px] font-[400] leading-[18px]">
-                    Disclaimer: Trading cryptocurrencies, including meme coins like $PUMP, is highly speculative and comes with significant risk. The value of meme coins can be extremely volatile, and there is a possibility that you may lose some or all of your investment. Only trade with money you can afford to lose. The content provided on this platform is for entertainment purposes only and should not be considered financial advice. Legal Notice: $PUMP is a meme coin with no inherent value or expectation of financial return. It is meant purely for fun and enjoyment. Trading meme coins can be risky, and their prices can fluctuate wildly. Be sure to conduct your own research before making any decisions. By trading or purchasing $PUMP, you confirm that you understand and accept the risks involved. This platform is not intended for use in any jurisdiction where its use would violate local laws or regulations.
-                </p>
-            </div>
-            <p className="absolute bottom-4 text-[#B4A5A5] text-[12px] font-[400] leading-[18px]">
-                Copyright 2024 PUMP MEMES | All rights reserved.
+          </div>
+          <div>
+            <p className="text-[28px] text-[white] font-[400] leading-[30px] mb-4">
+              OUR SOCIALS
             </p>
+            <div className="flex flex-row gap-4">
+              <img className="" src={social1} alt="social1" />
+              <img className="" src={social2} alt="social2" />
+              <img className="" src={social3} alt="social3" />
+            </div>
+            <div className="flex flex-row gap-4 mt-4">
+              <img className="" src={social4} alt="social4" />
+              <img className="" src={social5} alt="social5" />
+              <img className="" src={social6} alt="social6" />
+            </div>
+          </div>
         </div>
-       </div>
-    );
+        <div className="w-[100%] mt-8">
+          <p className="text-[#B4A5A5] text-[14px] font-[400] leading-[18px]">
+            Disclaimer: Trading cryptocurrencies, including meme coins like
+            $PUMP, is highly speculative and comes with significant risk. The
+            value of meme coins can be extremely volatile, and there is a
+            possibility that you may lose some or all of your investment. Only
+            trade with money you can afford to lose. The content provided on
+            this platform is for entertainment purposes only and should not be
+            considered financial advice. Legal Notice: $PUMP is a meme coin with
+            no inherent value or expectation of financial return. It is meant
+            purely for fun and enjoyment. Trading meme coins can be risky, and
+            their prices can fluctuate wildly. Be sure to conduct your own
+            research before making any decisions. By trading or purchasing
+            $PUMP, you confirm that you understand and accept the risks
+            involved. This platform is not intended for use in any jurisdiction
+            where its use would violate local laws or regulations.
+          </p>
+        </div>
+        <p className="absolute bottom-4 text-[#B4A5A5] text-[12px] font-[400] leading-[18px]">
+          Copyright 2024 PUMP MEMES | All rights reserved.
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default FooterSection;

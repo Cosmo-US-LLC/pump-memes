@@ -1,5 +1,5 @@
 import React from "react"
-import whaticn2 from "../../assets/Svgs/whaticn (1).svg";
+import whaticn2 from "../../assets/Svgs/coinCap.svg";
 import whaticn1 from "../../assets/Svgs/whaticn (2).svg";
 import whatvectors2 from "../../assets/images/whatvectorsmob (1).png";
 import whatvectors1 from "../../assets/images/whatvectors (2).png";
@@ -65,7 +65,7 @@ function MobileWhatIfPumpSec() {
               alt=""
             />
             <div className="flex justify-center">
-              <img src={whaticn2} className="max-h-[55px]" alt="" />
+              <img src={whaticn2} className="max-h-[55px] z-50" alt="" />
             </div>
             <h3 className="text-[40px] font-[700] text-center leading-[115%]  tracing-[-0.8px]">
               Top 100 On Coinmarketcap?
