@@ -28,7 +28,7 @@ function MobileWhilePumpSec() {
             <p className="text-[26px] relatove pb-[10px] z-[8] font-[800] font-[Tomorrow]  textStrockmob text-start text-[#fff] leading-[128%]">
             In the pockets of <br /> the developers
             </p>
-            <img src={whileimg1} className="max-h-[216px] z-[2] absolute bottom-0" alt="" />
+             
             <img src={pumpMemsLaptop} className="max-h-[345px] z-[2] absolute bottom-0 right-0" alt="" />
           </div>
          </div>
