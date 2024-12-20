@@ -6,12 +6,23 @@ import social3 from "../assets/Svgs/social3.svg";
 import social4 from "../assets/Svgs/social4.svg";
 import social5 from "../assets/Svgs/social5.svg";
 import social6 from "../assets/Svgs/social6.svg";
+import { motion } from "framer-motion";
 
 const languages = [
-  { code: "EN", name: "English", flag: "https://flagcdn.com/w320/gb.png" },
-  { code: "FR", name: "French", flag: "https://flagcdn.com/w320/fr.png" },
+  { code: "EN", name: "English", flag: "https://flagcdn.com/w320/us.png" },
+  { code: "JP", name: "Japanese", flag: "https://flagcdn.com/w320/jp.png" },
+  { code: "PT", name: "Portuguese", flag: "https://flagcdn.com/w320/pt.png" },
   { code: "DE", name: "German", flag: "https://flagcdn.com/w320/de.png" },
+  { code: "KO", name: "Korean", flag: "https://flagcdn.com/w320/kr.png" },
+  { code: "VN", name: "Vietnamese", flag: "https://flagcdn.com/w320/vn.png" },
+  { code: "FR", name: "French", flag: "https://flagcdn.com/w320/fr.png" },
+  { code: "NO", name: "Norwegian", flag: "https://flagcdn.com/w320/no.png" },
+  { code: "NL", name: "Dutch", flag: "https://flagcdn.com/w320/nl.png" },
   { code: "ES", name: "Spanish", flag: "https://flagcdn.com/w320/es.png" },
+  { code: "RU", name: "Russian", flag: "https://flagcdn.com/w320/ru.png" },
+  { code: "TR", name: "Turkish", flag: "https://flagcdn.com/w320/tr.png" },
+  { code: "IT", name: "Italian", flag: "https://flagcdn.com/w320/it.png" },
+  { code: "CN", name: "Chinese", flag: "https://flagcdn.com/w320/cn.png" },
 ];
 
 function FooterSection() {
@@ -24,9 +35,10 @@ function FooterSection() {
     setSelectedLanguage(language);
     setIsOpen(false);
   };
+
   return (
     <div className="bg-[black] w-[100%]">
-      <div className="h-[490px] w-[100%] max-w-[1155px] pt-[73px] mx-auto  py-8 flex flex-col items-center">
+      <div className="h-full w-[100%] max-w-[1155px] pt-[73px] mx-auto  py-8 flex flex-col items-center">
         <div className="flex flex-row justify-between w-[100%] items-center">
           <div className="w-[703px]">
             <img className="mb-8" src={footerLogo} alt="footerLogo" />
@@ -63,25 +75,6 @@ function FooterSection() {
                   <span>{selectedLanguage.code}</span>
                   <span className="text-sm">▼</span>
                 </div>
-
-                {isOpen && (
-                  <ul className="absolute z-20 bg-white border border-gray-300 rounded shadow-lg w-30 mt-[-2px]">
-                    {languages.map((language) => (
-                      <li
-                        key={language.code}
-                        className="flex items-center px-2 py-1 space-x-2 cursor-pointer hover:bg-gray-100"
-                        onClick={() => selectLanguage(language)}
-                      >
-                        <img
-                          src={language.flag}
-                          alt={`${language.name} Flag`}
-                          className="w-5 h-3"
-                        />
-                        <span>{language.code}</span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
               </div>
             </div>
           </div>
@@ -101,6 +94,34 @@ function FooterSection() {
             </div>
           </div>
         </div>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+            className="flex flex-row gap-4 flex-wrap mt-4"
+          >
+            {languages.map((language) => (
+              <div
+                key={language.name}
+                onClick={() => {
+                  selectLanguage(language);
+                }}
+                className="flex flex-row items-center justify-start gap-4 w-[150px] mt-4 cursor-pointer"
+              >
+                <img
+                  src={language.flag}
+                  alt={`${language.name} Flag`}
+                  className="w-[35px] h-[35px] rounded-full"
+                />
+                <p className="text-[white] text-[17px] font-[500] leading-[19px]">
+                  {language.name}
+                </p>
+              </div>
+            ))}
+          </motion.div>
+        )}
         <div className="w-[100%] mt-8">
           <p className="text-[#B4A5A5] text-[14px] font-[400] leading-[18px]">
             Disclaimer: Trading cryptocurrencies, including meme coins like
