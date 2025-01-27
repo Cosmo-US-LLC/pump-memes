@@ -7,8 +7,10 @@ module.exports = {
     extend: {
       boxShadow: {
         '3xl': '4px 4px 0px 0px #000',
+      },
+      screens: {
+        "<md": {max: "700px"}
       }
-
     },
   },
   plugins: [],

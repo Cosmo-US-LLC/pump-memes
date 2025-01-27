@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./components/navbar";
 import Home from "./page/home";
 import MobileHome from "./page/Mobile/MobileHome";
+import { Toaster } from "react-hot-toast";
+import ConnectWalletModal from "./components/common/ConnectWalletModal";
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 700);
@@ -21,6 +23,8 @@ function App() {
     <div className="relative bg-[#EDE8DC] overflow-hidden">
       <div className=""> <Navbar /></div>
       <div className="">{isMobile ? <MobileHome /> : <Home />}</div>
+      <Toaster toastOptions={{position: "bottom-center"}} />
+      <ConnectWalletModal />
     </div>
   );
 }

@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installing dependencies
+
+Because this repo uses `create-react-app` and `react-scripts` which are quite old at this point, to install the dependencies you may have to run `npm i --legacy-deps` as the `react-scripts` typescript version is quite old and the web3 packages use much newer typescript versions.
+
 ## Available Scripts
 
 In the project directory, you can run:
