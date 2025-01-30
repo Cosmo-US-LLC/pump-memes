@@ -24,6 +24,7 @@ import { showConnectionModal } from "../../presale-gg/stores"
 import { disconnect } from "@wagmi/core";
 import TransactionModal from "../../components/common/TransactionModal";
 import { BonusCodeInput, ReferralCodeInput } from "../../components/common/CodeInput";
+import ReferralShareBox from "../../components/common/ReferralShareBox";
 
 
 /**
@@ -432,6 +433,12 @@ function MobileHeroSec() {
               </div>
             </div>
           </div>
+          {accountData.isConnected && (
+            <div className="flex flex-col">
+              <p className="text-[#fff] text-[12.826px]">Your Referral Code:</p>
+              <ReferralShareBox />
+            </div>
+          )}
           <div className="flex gap-2">
             <div className="flex flex-col flex-1">
               <p className="text-[#fff] text-[12.826px]">Referral Code</p>

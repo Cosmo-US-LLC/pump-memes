@@ -31,7 +31,7 @@ export const CodeInput = ({ onApply, onReset, applied, appliedText, urlKey, plac
     setCode(code)
     setFlash(true)
 		const timeout = setTimeout(() => {
-			if (code && !loaded) {
+			if (!loaded) {
 				const el = codeInputRef
 				el?.scrollIntoView({behavior: "smooth", block: "center"})
 			}
