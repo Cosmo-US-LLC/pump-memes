@@ -19,6 +19,8 @@ import { api } from "../presale-gg/api";
 import { showConnectionModal } from "../presale-gg/stores"
 import { disconnect } from "@wagmi/core";
 import TransactionModal from "../components/common/TransactionModal";
+import { BonusCodeInput, ReferralCodeInput } from "../components/common/CodeInput";
+import ReferralShareBox from "../components/common/ReferralShareBox";
 
 /**
  * @typedef {import("../presale-gg/api/api.types").API.PaymentToken} PaymentToken
@@ -45,20 +47,20 @@ function HeroSection() {
   const [receiveTokenAmountStr, setReceiveTokenAmountStr] = useState("1")
 
   /** @param {string} amount */
-  const updateUsdAmount = (amount) => {
+  const updateUsdAmount = useCallback((amount) => {
     setPaymentUsdAmountStr(amount)
     const numUsd = parseNum(amount)
     const receiveNum = roundToDP(numUsd / parseNum(apiData.stage?.token_price ?? "1"), 4)
     setReceiveTokenAmountStr(receiveNum.toString())
-  }
+  }, [apiData.stage?.token_price])
 
   /** @param {string} amount */
-  const updateReceiveAmount = (amount) => {
+  const updateReceiveAmount = useCallback((amount) => {
     setReceiveTokenAmountStr(amount)
     const numReceive = parseNum(amount)
     const usdNum = roundToDP(numReceive * parseNum(apiData.stage?.token_price ?? "1"), 2)
     setPaymentUsdAmountStr(usdNum.toString())
-  }
+  }, [apiData.stage?.token_price])
 
   const accountData = useAccount()
   const partialNumRegex = /(\d+(\.\d*)?)?/
@@ -68,9 +70,14 @@ function HeroSection() {
   }, [apiData.stage]);
 
   useEffect(() => {
-    if (!topPaymentTokens.length === 0) return
+    if (!topPaymentTokens.length === 0 || selectedPaymentToken) return
     setSelectedPaymentToken(topPaymentTokens[0])
-  }, [topPaymentTokens])
+    updateUsdAmount(1)
+  }, [topPaymentTokens[0]?.price, updateUsdAmount])
+
+  useEffect(() => {
+    updateUsdAmount(paymentUsdAmountStr)
+  }, [apiData.stage?.token_price])
 
   const handleToggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -415,6 +422,22 @@ function HeroSection() {
                   PUMP
                 </span>
               </div>
+            </div>
+          </div>
+          {accountData.isConnected && (
+            <div className="flex flex-col">
+              <p className="text-[#fff] text-[12.826px]">Your Referral Code:</p>
+              <ReferralShareBox />
+            </div>
+          )}
+          <div className="flex gap-2">
+            <div className="flex flex-col flex-1">
+              <p className="text-[#fff] text-[12.826px]">Referral Code</p>
+              <ReferralCodeInput />
+            </div>
+            <div className="flex flex-col flex-1">
+              <p className="text-[#fff] text-[12.826px]">Bonus Code</p>
+              <BonusCodeInput />
             </div>
           </div>
           <div className="flex space-x-3 ites-center">

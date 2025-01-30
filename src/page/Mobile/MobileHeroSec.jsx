@@ -23,6 +23,7 @@ import { api } from "../../presale-gg/api";
 import { showConnectionModal } from "../../presale-gg/stores"
 import { disconnect } from "@wagmi/core";
 import TransactionModal from "../../components/common/TransactionModal";
+import { BonusCodeInput, ReferralCodeInput } from "../../components/common/CodeInput";
 
 
 /**
@@ -75,7 +76,12 @@ function MobileHeroSec() {
   useEffect(() => {
     if (!topPaymentTokens.length === 0 || selectedPaymentToken) return
     setSelectedPaymentToken(topPaymentTokens[0])
-  }, [topPaymentTokens])
+    updateUsdAmount(1)
+  }, [topPaymentTokens[0]?.price, updateUsdAmount])
+
+  useEffect(() => {
+    updateUsdAmount(paymentUsdAmountStr)
+  }, [apiData.stage?.token_price])
 
   const handleToggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -424,6 +430,16 @@ function MobileHeroSec() {
                   PUMP
                 </span>
               </div>
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <div className="flex flex-col flex-1">
+              <p className="text-[#fff] text-[12.826px]">Referral Code</p>
+              <ReferralCodeInput />
+            </div>
+            <div className="flex flex-col flex-1">
+              <p className="text-[#fff] text-[12.826px]">Bonus Code</p>
+              <BonusCodeInput />
             </div>
           </div>
           <div className="flex space-x-3 ites-center">
